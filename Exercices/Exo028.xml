@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soient $E$ est un espace vectoriel de dimension finie et $f\in\mathcal{L}(E)$.
+		&lt;br/&gt;
+		Les conditions suivantes sont équivalentes à $\Ker f \oplus \Im f = E$.</enonce>
+	<reponse value="false">$\Ker f \subset \Ker f^2$.</reponse>
+	<reponse value="true">$\Im f \subset \Im f^2$.</reponse>
+	<reponse value="true">$\Ker f \cap \Im f = \{0\}$.</reponse>
+	<reponse value="false">$f$ est un projecteur.</reponse>
+</exo>

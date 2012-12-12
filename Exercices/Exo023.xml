@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Polynômes</theme>
+	<enonce>Les polynômes de Tchebychev $(T_n)_{n\in\dN}$ vérifient :</enonce>
+	<reponse value="false">$\cos n\theta = \re\left(e^{i\theta}\right)^n = \sum_{0\leq2k\leq n}\binom{n}{2k}(\cos\theta)^{n-2k} (1-\cos^2\theta)^{2k}$, $\forall \theta \in \dR$ donc $T_n$ existe pour tout $n\in\dN$ et peut être choisi à coefficients entiers.</reponse>
+	<reponse value="true">Si $T_n$ et $\tilde{T}_n$ sont deux polynômes de Tchebychev alors ils sont égaux car $\forall x \in [-1,1]$, $T_n(x) = \tilde{T}_{n}(x)$.</reponse>
+	<reponse value="false">$\forall n \in \dN^*, T_{n+1} = 2T_n-X^2T_{n-1}$ puisque $\cos(n+1)\theta = 2 \cos n\theta - \cos^2\theta \cos(n-1)\theta$.</reponse>
+	<reponse value="false">$T_n$ a pour coefficient dominant $1$.</reponse>
+</exo>

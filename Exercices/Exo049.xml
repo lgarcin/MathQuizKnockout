@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soient $E$ un espace vectoriel de dimension finie et $f,g\in\cL(E)$.</enonce>
+	<reponse value="true">$\rg(g\circ f)\leq\max(\rg f,\rg g)$</reponse>
+	<reponse value="false">$\rg(g\circ f)\geq\min(\rg f,\rg g)$</reponse>
+	<reponse value="false">$\rg(f+g)\geq\rg f+\rg g$</reponse>
+	<reponse value="true">$\rg(f+g)\geq|\rg f-\rg g|$</reponse>
+</exo>

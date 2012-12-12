@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Polynômes</theme>
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soit $n \in \dN$. On se place dans $\dR_n[X]$.</enonce>
+	<reponse value="false">$\dim\dR_n[X] = n$.</reponse>
+	<reponse value="true">$\forall a \in \dR$, $\cB_a = \left(1, X-a, (X-a)^2, \dots, (X-a)^n\right)$ est une base de $\dR_n[X]$ et d'ailleurs $\cB_0$ en est la base canonique.</reponse>
+	<reponse value="false">La matrice de passage de $\cB_a$ à $\cB_0$ est la matrice $\left(a^{k-p} \binom{k}{p}\right)_{1\leq k,p\leq n}$.</reponse>
+	<reponse value="false">La matrice de passage de $\cB_0$ à $\cB_a$ est la matrice $\left(a^{k-p} \binom{k}{p}\right)_{1\leq k,p\leq n}$.</reponse>
+</exo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Suites et séries de fonctions</theme>
+	<theme>Fonctions numériques</theme>
+	<enonce>Soit $f$ la fonction définie par $f(x)=\exp\left(-\frac{1}{x^2}\right)$ pour $x\neq0$ et $f(0)=0$.</enonce>
+	<reponse value="false">La fonction $f$ est développable en série entière en $0$ car elle est de classe $\cC^\infty$ sur $\dR$.</reponse>
+	<reponse value="false">Pour tout $n\in\dN$, il existe un polynôme $P_n$ tel que $f(x)=P_n(x)\exp\left(-\frac{1}{x^2}\right)$ pour tout $x\in\dR$.</reponse>
+	<reponse value="true">$f$ est de classe $\cC^\infty$ et pour tout $n\in\dN$, $f^{(n)}(0)=0$.</reponse>
+	<reponse value="true">$f$ est de classe $\cC^\infty$ et le rayon de convergence de la série entière $\sum_{n=0}^{+\infty}\frac{f^{(n)}(0)}{n!}x^n$ est infini.</reponse>
+</exo>

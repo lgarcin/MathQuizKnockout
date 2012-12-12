@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre bilinéaire</theme>
+	<theme>Géométrie</theme>
+	<enonce>L'espace $\mathbf{E}$ est rapporté à un repère orthonormal $(O, \vec i, \vec j, \vec k)$. L'espace vectoriel associé $E$ est rapporté à la base $(\vec i, \vec j, \vec k)$.
+    &lt;br/&gt;
+    Soit $D$ la droite de $\mathbf{E}$ dont la représentation paramétrique est donnée par : $\syst{x&amp;=1+t\\y&amp;=1-2t\\z&amp;=1+t}$.
+    &lt;br/&gt; </enonce>
+	<reponse value="false">Les coordonnées du point symétrique de $M(a,b,c)$ par rapport à $D$ sont $\left(1+\frac{a-2b+c}{6}, 1-\frac{a-2b+c}{3}, 1+\frac{a-2b+c}{6}\right)$.</reponse>
+	<reponse value="false">Les coordonnées du point symétrique de $M(a,b,c)$ par rapport à $D$ sont $\left(\frac{6-2a-2b+c}{3}, \frac{6-2a+b-2c}{3}, \frac{6-2a-2b+c}{3}\right)$.</reponse>
+	<reponse value="false">La droite symétrique par rapport à $D$ de l'axe $(z'Oz)$ a pour représentation paramétrique : $\syst{x&amp;=2+t\\y&amp;=2-2t\\z&amp;=2-t}$.</reponse>
+	<reponse value="true">La droite symétrique par rapport à $D$ de l'axe $(z'Oz)$ a pour équations cartésiennes : $\syst{6-2x-y&amp;=0\\y&amp;=z}$.</reponse>
+</exo>

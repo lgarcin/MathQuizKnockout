@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Intégration</theme>
+	<enonce>On pose $f(x)=\int_0^x3^{-[t]}\,dt$	où $[t]$ note la partie entière du réel $t$.</enonce>
+	<reponse value="true">$f$ est définie sur $\dR$.</reponse>
+	<reponse value="true">$\forall n \in \dN, f(n) = 3 \frac{1-3^{-n}}{2}$.</reponse>
+	<reponse value="false">Pour montrer que $f$ admet une limite en $+\infty$, il est suffisant de montrer que $(f(n))_{n\in\dN}$ converge.</reponse>
+	<reponse value="false">$f$ est croissante sur $\dR_+$ et majorée par $\frac{1}{e\ln{3}}$ donc elle admet une limite finie qui est la même que la limite de $(f(n))_{n\in\dN}$, à savoir $\frac{3}{2}$.</reponse>
+</exo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Equations différentielles</theme>
+	<enonce>On cherche à déterminer les fonctions $g$ de classe $\mathcal{C}^1$ sur $\dR^*_+$ et vérifiant
+		\[(P)\qquad\forall x &gt; 0, g'(x) = g\left(\frac{1}{x}\right)\]</enonce>
+	<reponse value="false">Si $g$ vérifie $(P)$ alors $g$ est de classe $\mathcal{C}^2$ sur $\dR^*_+$ et $x^2g''(x)=g(x)$ pour tout $x\in\dR^*_+$.</reponse>
+	<reponse value="true">Si $g$ vérifie $(P)$ et si on pose $h(t)=g(e^t)$ pour $t\in\dR$, alors $h'' - h' + h = 0$.</reponse>
+	<reponse value="false">Les fonctions $g : x \mapsto \sqrt{x} \left [A \cos\left(\sqrt3\ln x\right) + B \sin\left(\sqrt3\ln x\right)\right ]$ où $(A, B) \in \dR^2$ vérifient $(P)$.</reponse>
+	<reponse value="true">Comme l'équation différentielle $h''-h'+h=0$ est du second ordre et homogène, l'ensemble des solutions forme un espace vectoriel de dimension 2.</reponse>
+</exo>

@@ -1,0 +1,10 @@
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Polynômes</theme>
+	<theme>Arithmétique</theme>
+	<enonce>Soit $P = \sum_{k=0}^na_k X^k$ avec $a_k \in \mathbb{Z}$ pour $0\leq k\leq n$.</enonce>
+	<reponse value="true">Si $(p,q)\in\mathbb{Z}\times\mathbb{Z}^*$ sont premiers entre eux et tels que $\frac{p}{q}$ est racine de $P$ alors $p$ divise $a_0$ et $q$ divise $a_n$.</reponse>
+	<reponse value="false">Si $2X^3-X^2-13X+5$ admet une racine rationnelle, c'est nécessairement $1$, $5$, $\frac{1}{2}$ ou $\frac{5}{2}$.</reponse>
+	<reponse value="false">$2X^4+X^2+5X+5$ admet une racine rationnelle.</reponse>
+	<reponse value="true">Si $a_n=1$, alors toute racine rationnelle de $P$ est nécessairement entière.</reponse>
+</exo>

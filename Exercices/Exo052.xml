@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Equations différentielles</theme>
+	<enonce>Soit $\la\in\dR^*_+$. On considère l'équation différentielle $(E)\;xy'+\la y=\frac{1}{1+x}$ sur $\dR^*_+$.</enonce>
+	<reponse value="false">Les solutions de l'équation homogène associée à $(E)$ sont les fonctions $x\mapsto Cx^\la$ où $C\in\dR$.</reponse>
+	<reponse value="true">Il existe une unique solution de $(E)$ bornée au voisinage de $0$.</reponse>
+	<reponse value="false">Les solutions de $(E)$ sont toutes bornées au voisinage de $0$.</reponse>
+	<reponse value="false">Aucune solution de $(E)$ n'est bornée au voisinage de $0$.</reponse>
+</exo>

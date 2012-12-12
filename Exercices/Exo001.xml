@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Nombres complexes</theme>
+	<enonce>Dans les assertions suivantes, lesquelles sont vraies ?</enonce>
+	<reponse value="false">$\forall \theta \in \dR, \cos{5\theta} = 16 \cos^{5}{\theta} + 5 \cos{\theta}$</reponse>
+	<reponse value="true">$\forall \theta \in \dR, \cos{5\theta} = 16 \cos^{5}{\theta} - 20 \cos^{3}{\theta} + 5 \cos{\theta}$</reponse>
+	<reponse value="true">$\cos{\frac{\pi}{10}} = \sqrt{\frac{5+\sqrt{5}}{8}}$</reponse>
+	<reponse value="false">$\cos{\frac{\pi}{10}} = \sqrt{\frac{5-\sqrt{5}}{8}}$ car $\cos{\frac{\pi}{10}} \leq \cos{\frac{\pi}{3}}$</reponse>
+</exo>

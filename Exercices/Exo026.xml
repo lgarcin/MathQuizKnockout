@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soient $F$ et $G$ deux sous-espaces vectoriels d'un espace vectoriel $E$.</enonce>
+	<reponse value="true">S'il existe $x \in F\setminus G$, alors pour tout $g\in G$, $F \cup G$ sous-espace vectoriel de $E$ si et seulement si $x+g \in F$.</reponse>
+	<reponse value="false">Si $F\not\subset G$, $F \cup G$ ne peut être un sous-espace vectoriel de $E$.</reponse>
+	<reponse value="false">$F \cup G$ ne peut être un sous-espace vectoriel de $E$ que si $F \subset G$.</reponse>
+	<reponse value="true">Si $F \subset G$ alors $F \cup G$ sous-espace vectoriel de $E$.</reponse>
+</exo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soit $n\in\dN$.</enonce>
+	<reponse value="true">La famille $(x\mapsto1,x\mapsto\cos x,\dots x\mapsto\cos nx)$ est libre dans $\dR^\dR$.</reponse>
+	<reponse value="false">La famille $(x\mapsto1,x\mapsto\cos x,\dots x\mapsto\cos^nx)$ est libre dans $\dR^\dR$.</reponse>
+	<reponse value="true">La famille $(\cosh,\sinh)$ est liée dans $\dR^\dR$.</reponse>
+	<reponse value="true">La famille $\left(x\mapsto1, x\mapsto\arctan x, x\mapsto\arctan\frac{1}{x}\right)$ est libre dans $\dR^{\dR^*}$.</reponse>
+</exo>

@@ -1,0 +1,9 @@
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Polynômes</theme>
+	<enonce>On considère $P$ un polynôme non nul tel que $P(X^2) - P(X+1) P(X) = 0$.</enonce>
+	<reponse value="true">Le coefficient dominant de $P$ est $1$.</reponse>
+	<reponse value="true">Si $a$ est une racine de $P$, $\forall n \in \dN$, $a^{2^n}$ est encore une racine de $P$.</reponse>
+	<reponse value="true">Si $a$ est une racine de $P$, il existe $p$ tel que $a = a^p$</reponse>
+	<reponse value="false">Les racines de $P$ sont des racines de l'unité.</reponse>
+</exo>

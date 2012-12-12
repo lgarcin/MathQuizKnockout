@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Arithmétique</theme>
+	<enonce>Soient $n$ et $p$ deux entiers naturels non nuls et $x$ un entier relatif non nul et non égal à $1$.
+		&lt;br/&gt;
+		On note $U$ l'ensemble des entiers relatifs $x$ tels que $\forall n \geq 2$, $6$ divise $x^n-x$.</enonce>
+	<reponse value="true">$\forall n \geq 1, x^n-1$ et $x$ sont premiers entre eux.</reponse>
+	<reponse value="false">$\forall n \geq 2$, $p$ divise $x^2-x$ si seulement si $p$ divise $x^n-x$.</reponse>
+	<reponse value="false">$U\subsetneq\{6k, k \in \mathbb{Z}\} \cup \{1+6k, k \in \mathbb{Z}\}$.</reponse>
+	<reponse value="false">$U=\{6k, k \in \mathbb{Z}\} \cup \{1+6k, k \in \mathbb{Z}\}$.</reponse>
+</exo>

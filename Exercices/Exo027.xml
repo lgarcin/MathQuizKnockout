@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soient $H$ et $K$ deux sous-espaces vectoriels supplémentaires d'un espace vectoriel $E$ de dimension finie.
+		&lt;br/&gt;
+		Soit $(e_{1}, \dots, e_{k})$ une base de $K$ et $a \in H$.</enonce>
+	<reponse value="false">$\dim\left(\vect(e_1+a, \dots, e_k+a)\right) &lt; k$.</reponse>
+	<reponse value="true">$\vect(e_1+a, \dots, e_k+a)$ est un supplémentaire de $H$ dans $E$.</reponse>
+	<reponse value="false">$\vect(e_1+a, \dots, e_k+a)=K$.</reponse>
+	<reponse value="false">On peut montrer ici que tout sous-espace vectoriel d'un espace vectoriel de dimension finie admet au moins deux supplémentaires.</reponse>
+</exo>

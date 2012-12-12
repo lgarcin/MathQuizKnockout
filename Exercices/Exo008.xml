@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Fonctions numériques</theme>
+	<enonce>On cherche à comparer $e^x$ avec son développement limité.</enonce>
+	<reponse value="true">$\forall x \in \dR_+, \forall n \in \dN, e^x \leq \sum_{k=0}^n\frac{x^k}{k!}$</reponse>
+	<reponse value="true">$\forall x \in \dR, \forall n \in \dN, e^x \geq \sum_{k=0}^{2n+1}\frac{x^k}{k!}$</reponse>
+	<reponse value="false">$\forall x \in \dR, \forall n \in \dN, e^x \geq \sum_{k=0}^{2n}{\frac{x^{k}}{k!}}$</reponse>
+	<reponse value="true">$\forall x \in \dR_-, \forall n \in \dN, e^x \leq \sum_{k=0}^{2n}\frac{x^k}{k!}$</reponse>
+</exo>

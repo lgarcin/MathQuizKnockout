@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Fonctions numériques</theme>
+	<enonce>Soient $a$ et $b$ deux fonctions réelles à valeurs strictement positives et $\alpha \in \dR$ tels que $a\;\mathop{\sim}_\alpha\;b$.</enonce>
+	<reponse value="true">Il existe une fonction $\varepsilon$ définie sur un voisinage de $\alpha$ avec $\lim\limits_\alpha\varepsilon = 0$ et $\ln\circ\; a = \ln\circ\; b + \ln\circ\;(1+\varepsilon)$.</reponse>
+	<reponse value="false">$\ln\circ\; a\;\mathop{\sim}_\alpha\;\ln\circ\; b$.</reponse>
+	<reponse value="false">$\ln{\left(1+\frac{x}{2}+\sin^{2}{x}\right)} \mathop{\sim}_{x\to0}\ln(1+x)$ car $1+\frac{x}{2}+\sin^{2}{x} \mathop{\sim}_{x\to0}1+x$</reponse>
+	<reponse value="false">$\ln|\sin x| \mathop{\sim}_{x\to0}\ln|x|$ car $|\sin x| \mathop{\sim}_{x\to0}|x|$ et $|x| \neq 1$ sur un voisinage de $0$.</reponse>
+</exo>

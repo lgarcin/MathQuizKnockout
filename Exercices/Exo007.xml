@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Fonctions numériques</theme>
+	<enonce>On suppose que $f$ est une fonction continue sur $\dR$ admettant une limite finie $\ell$ en $+\infty$ et $a$ est un réel strictement positif.</enonce>
+	<reponse value="true">$\forall y \in \dR$, $x \mapsto \int_0^xf(t)\,dt$ est continue sur $[y,y+a]$ et dérivable sur $]y,y+a[$.</reponse>
+	<reponse value="true">$\lim_{y\to+\infty}\int_y^{y+a}f(t)\,dt = a\ell$.</reponse>
+	<reponse value="false">$\lim_{X\to+\infty}\int_0^X\left(f(t+a)-f(t)\right)\,dt = \int_0^af(t)\,dt + a \ell$.</reponse>
+	<reponse value="false">$\lim_{X\to+\infty}\int_0^X\left(\arctan(t+1) - \arctan(t)\right)\,dt = \frac{1}{2} \ln{2} - \frac{\pi}{4}$.</reponse>
+</exo>

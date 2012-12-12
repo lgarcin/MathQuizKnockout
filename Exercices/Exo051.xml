@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Suites et séries de fonctions</theme>
+	<enonce>Soit $(a_n)$ la suite définie par $a_0=a_1=a_2=1$ et par la relation de récurrence
+	\[\forall n\geq2\; a_{n+1}=a_n-\frac{a_{n-2}}{2(n+1)}\]
+	On note $f(x)$ la somme de la série entière $\sum_{n\in\dN}a_nx^n$.
+	</enonce>
+	<reponse value="false">Le rayon de convergence de $f$ est infini.</reponse>
+	<reponse value="false">Les suites $(a_n)$ et $(na_n)$ sont décroissantes.</reponse>
+	<reponse value="true">$f$ vérifie l'équation différentielle $(2x-2)y'+(2-x^2)y=0$.</reponse>
+	<reponse value="false">Pour $x$ appartenant à l'intervalle de convergence,
+	\[f(x)=\frac{\exp\left(\frac{x(x+2)}{4}\right)}{\sqrt{x-1}}\]</reponse>
+</exo>

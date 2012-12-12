@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Intégration</theme>
+	<enonce>Si $f$ est une fonction continue sur un segment $[a,b]$, alors</enonce>
+	<reponse value="false">$\lim\limits_{n\to+\infty}\frac{1}{n} \sum_{k=1}^nf\left(a+k\frac{b-a}{n}\right) = \int_a^bf(t)\,dt$.</reponse>
+	<reponse value="false">$\lim\limits_{n\to+\infty}\frac{1}{n} \sum_{k=0}^{n-1}f\left(a+k\frac{b-a}{n}\right) = \int_a^bf(t)\,dt$.</reponse>
+	<reponse value="false">$\sqrt[n]{\prod_{k=1}^n(n+k)} = n e^{\sum_{k=1}^n\ln\left(1+\frac{k}{n}\right)}$.</reponse>
+	<reponse value="false">$\sqrt[n]{\prod_{k=1}^n(n+k)} \mathop{\sim}_{+\infty}\frac{n}{e}$.</reponse>
+</exo>

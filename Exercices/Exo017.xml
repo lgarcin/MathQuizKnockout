@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Fonctions de plusieurs variables</theme>
+	<enonce>On considère le domaine $D = \{(x, y) \in \dR^2, x \geq 0, y \geq 0, x^2+y^2 \leq 1 \text{ et } x^2+y^2-2y &gt; 0\}$ dont on veut calculer l'aire $A_{D}$.
+		&lt;br/&gt;
+		On note $\varphi : \dR_+\times]-\pi,\pi] \to \dR^2, (\rho, \theta) \mapsto (\rho \cos\theta,\rho \sin\theta)$.</enonce>
+	<reponse value="false">$\varphi^{-1}(D) = \{(\rho, \theta) \in \dR^2, 0 \leq \theta \leq \frac{\pi}{6}, 2 \sin\theta &lt; \rho \leq 1\}$.</reponse>
+	<reponse value="true">$\varphi^{-1}(D) = \{(\rho, \theta) \in \dR^2, 0 \leq \theta \leq \frac{\pi}{6}, 2 \sin{\theta} \leq \rho \leq 1\}$.</reponse>
+	<reponse value="false">$A_{D} = \int_0^\frac{\pi}{6}\left(\int_{2\sin\theta}^1d\rho\right)\,d\theta = \frac{\pi}{6} + 1-\sqrt{3}$.</reponse>
+	<reponse value="false">$A_{D} = \int_0^\frac{\pi}{3}\left(\int_{2\sin\theta}^1\rho\,d\rho\right)\,d\theta = \frac{\sqrt3}{4}$.</reponse>
+</exo>

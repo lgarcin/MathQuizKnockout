@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre bilinéaire</theme>
+	<enonce>Soient $E$ un espace vectoriel euclidien, $u$ un vecteur normé fixé de $E$ et $a$ un scalaire.
+    &lt;br/&gt;
+    On définit $f_a$ par : $\forall x \in E$, $f(x) = x + a \langle x,u\rangle u$.</enonce>
+	<reponse value="true">$f_a$ est un automorphisme orthogonal si et seulement si $a = -2$.</reponse>
+	<reponse value="false">$f_2$ est un automorphisme orthogonal.</reponse>
+	<reponse value="true">$f_{-2}$ est la symétrie orthogonale par rapport à l'hyperplan vectoriel orthogonal à $u$.</reponse>
+	<reponse value="false">$f_2$ est la symétrie orthogonale par rapport à la droite vectorielle engendrée par $u$.</reponse>
+</exo>

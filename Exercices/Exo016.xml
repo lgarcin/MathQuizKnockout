@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Fonctions de plusieurs variables</theme>
+	<enonce>Soit $c\in\dR^*_+$. On cherche à résoudre l'équation aux dérivées partielles $(E)$ : $c^{2} \frac{\partial^2f}{\partial x^2} - \frac{\partial^2f}{\partial y^2} = 0$ où $f$ est une fonction de $\dR^2$ à valeurs réelles admettant des dérivées partielles secondes.
+		&lt;br/&gt;
+		On posera $u(x, y) = x + cy$ et $v(x, y) = x-cy$.
+		&lt;br/&gt;
+		On notera $g(u, v) = f\left(x(u, v), y(u, v)\right)$.</enonce>
+	<reponse value="false">$\frac{\partial g}{\partial u} = \frac{\partial f}{\partial x} + c\frac{\partial f}{\partial y}$.</reponse>
+	<reponse value="false">$\frac{\partial g}{\partial u} = \frac{1}{2}\frac{\partial f}{\partial x} - \frac{1}{2c} \frac{\partial f}{\partial y}$.</reponse>
+	<reponse value="false">$\frac{\partial^2g}{\partial u \partial v} = \frac{1}{4c^{2}} \left [c^{2} \frac{\partial^2f}{\partial x^2} - \frac{\partial^2f}{\partial y^2}\right ]$.</reponse>
+	<reponse value="true">$(x, y) \mapsto e^x \cosh(cy) + 2$ est une solution de $(E)$.</reponse>
+</exo>

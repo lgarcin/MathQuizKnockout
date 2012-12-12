@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>On pose $A=\begin{pmatrix}2 &amp; 3 &amp; 1\\2 &amp; 3 &amp; 1\\1 &amp; 1 &amp; 0\end{pmatrix}$ et $B=\begin{pmatrix}1 &amp; 0 &amp; 1\\1 &amp; 2 &amp; 3\\1 &amp; 4 &amp; 5\end{pmatrix}$.</enonce>
+	<reponse value="true">Les matrices $A$ et $B$ sont équivalentes.</reponse>
+	<reponse value="false">Les matrices $A$ et $B$ sont semblables.</reponse>
+	<reponse value="true">Les matrices $A$ et $B$ sont diagonalisables.</reponse>
+	<reponse value="false">Il existe une matrice $P$ orthogonale de taille $3$ telle que $A=\trans PBP$.</reponse>
+</exo>

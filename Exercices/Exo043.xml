@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Arithmétique</theme>
+	<enonce>Soient $(a,b)\in\dZ^2$ et $(\cS)$ le système $\syst{x&amp;\equiv a[10]\\x&amp;\equiv b[8]}$ d'inconnue $x\in\dZ$.</enonce>
+	<reponse value="false">Le système $(\cS)$ admet toujours une solution.</reponse>
+	<reponse value="true">Si $a-b$ est pair, le système admet une infinité de solutions.</reponse>
+	<reponse value="false">Si $x$ et $x'$ sont solutions de $(\cS)$, alors $x\equiv x'[80]$.</reponse>
+	<reponse value="false">$10a+8b$ est solution de $(\cS)$.</reponse>
+</exo>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Suites et séries de fonctions</theme>
+	<enonce>On définit une fonction $f$ $2\pi$-périodique en posant pour tout $x\in\dR$ :
+	\[f(x)=\sum_{n\in\dN}\frac{\sin^3(nx)}{n!}\]
+	On note classiquement $a_n$ et $b_n$ les coefficients réels de la série de Fourier associée à $f$.</enonce>
+	<reponse value="true">$f$ est égale à la somme de sa série de Fourier.</reponse>
+	<reponse value="false">Pour tout $n\in\dN$, $b_n=\frac{1}{4}\left(\frac{3}{(3n)!}-\frac{1}{n!}\right)$.</reponse>
+	<reponse value="true">Pour tout $x\in\dR$,
+	 \[f(x)=-\frac{1}{4}e^{\cos3x}\sin(\sin 3x)+\frac{3}{4}e^{\cos x}\sin(\sin x)\]</reponse>
+	 <reponse value="true">Pour tout $n\in\dN$, $a_n=0$.</reponse>
+</exo>

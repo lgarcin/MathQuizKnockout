@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Nombres complexes</theme>
+	<enonce>On désigne par $j$ le nombre complexe $e^\frac{2i\pi}{3}$. Soient $a,b,c\in\dR$. Le système $\syst{x+y+z&amp;a\\x+jy+j^2z&amp;=b\\x+j^2y+jz&amp;=c}$</enonce>
+	<reponse value="false">n'admet pas de solution.</reponse>
+	<reponse value="false">admet au moins deux solutions.</reponse>
+	<reponse value="false">une solution unique $x=\frac{a+b+c}{3}$, $y=\frac{a+j^2b+jc}{3}$, $z=\frac{a+jb+j^2c}{3}$.</reponse>
+	<reponse value="true">une solution unique $x=\frac{a+b+c}{3}$, $y=\frac{a+jb+j^2c}{3}$, $z=\frac{a+j^2b+jc}{3}$.</reponse>
+</exo>

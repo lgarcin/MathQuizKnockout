@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre bilinéaire</theme>
+	<enonce>On considère des formes quadratiques sur un $\dR$-espace vectoriel de dimension finie.
+        &lt;br/&gt;
+        Parmi les affirmations suivantes, lesquelles sont vraies ?</enonce>
+	<reponse value="false">Une forme quadratique non dégénérée est définie.</reponse>
+	<reponse value="true">Une forme quadratique définie est soit positive soit négative.</reponse>
+	<reponse value="false">Une forme quadratique est positive si et seulement si le déterminant de sa matrice dans une base quelconque est positif.</reponse>
+	<reponse value="true">Une forme quadratique définie est négative si et seulement si la trace de sa matrice dans une base quelconque est négative.</reponse>
+</exo>

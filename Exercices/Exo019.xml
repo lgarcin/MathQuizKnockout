@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre générale</theme>
+	<enonce>Soit $E$ un ensemble à $n$ éléments ($n \in \dN^*$). $X,Y,Z$ désignent des parties de $E$.</enonce>
+	<reponse value="true">Le nombre de couples $(X, Y)$ tels que $X \cap Y = \emptyset$ est $3^n$.</reponse>
+	<reponse value="true">Le nombre de couples $(X, Y)$ tels que $X \cup Y = E$ est $3^n$.</reponse>
+	<reponse value="false">Le nombre de couples $(X, Y)$ tels que $(X, Y)$ forment une partition de $E$ est $3^n$.</reponse>
+	<reponse value="false">Le nombre de triplets $(X, Y, Z)$ tels que $X \cup Y = Z$ est $3^n$.</reponse>
+</exo>

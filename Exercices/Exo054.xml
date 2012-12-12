@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Fonctions de plusieurs variables</theme>
+	<enonce>Pour $x(,y)\in\dR^2$, on pose $f(x,y)=(x-y)^3+6xy$.</enonce>
+	<reponse value="false">$f$ possède un unique point critique.</reponse>
+	<reponse value="false">$f$ admet un extremum global.</reponse>
+	<reponse value="false">$f$ admet deux extrema locaux.</reponse>
+	<reponse value="true">$f$ admet un unique minimum local.</reponse>
+</exo>

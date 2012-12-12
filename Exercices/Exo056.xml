@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Suites et séries de fonctions</theme>
+	<enonce>On s'intéresse à la série entière
+  $f(x)=\sum_{n\in\dN^*}\frac{x^n}{n}\cos\frac{n\pi}{3}$
+  On note $R$ son rayon de convergence.</enonce>
+	<reponse value="true">$R=1$.</reponse>
+	<reponse value="false">Pour $x\in]-R,R[$,
+  $f'(x)=\sum_{n\in\dN}x^n\cos\frac{n\pi}{3}$</reponse>
+	<reponse value="false">Pour $x\in]-R,R[$,
+	$f(x)=\frac{1}{2}\ln(x^2-x+1)$</reponse>
+	<reponse value="false">La suite $\left(\frac{1}{n}\cos\frac{n\pi}{3}\right)_{n\in\dN^*}$ est bornée donc $R\leq1$.</reponse>
+</exo>

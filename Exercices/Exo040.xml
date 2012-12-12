@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre bilinéaire</theme>
+	<enonce>Soient $E$ un espace euclidien de dimension $n\geq2$, $a$ un vecteur unitaire de $E$ et $\la$ un réel.
+        &lt;br/&gt;
+        On définit une forme quadratique $Q$ par $Q(x)=2\langle x,a\rangle^2+\la\|x\|^2$ pour $x\in E$.</enonce>
+	<reponse value="true">$Q$ est définie si et seulement si $\la&lt;-2$ ou $\la&gt;0$.</reponse>
+	<reponse value="false">$Q$ est positive si et seulement si $\la\geq-2$.</reponse>
+	<reponse value="false">$Q$ est non dégénérée si et seulement si $\la\neq0$.</reponse>
+	<reponse value="false">Le rang de $Q$ est nécessairement $1$ ou $n-1$.</reponse>
+</exo>

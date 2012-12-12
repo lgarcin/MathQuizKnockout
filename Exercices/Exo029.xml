@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soient $E$ est un espace vectoriel de dimension $n\geq1$ et $f\in\mathcal{L}(E)$.
+		&lt;br/&gt;
+		On suppose que $f^n=0$.</enonce>
+	<reponse value="false">$\forall x \in E$, $(x, f(x), f^2(x), \dots, f^{n-1}(x))$ est libre.</reponse>
+	<reponse value="true">$f$ ne peut être surjectif.</reponse>
+	<reponse value="true">Si $f^{n-1}(x)\neq0$, alors $\Ker f=\vect(f^{n-1}(x))$.</reponse>
+	<reponse value="false">Si $f^{n-1}(x)\neq0$, alors $\Im f=\vect(x,f(x),f^2(x),\dots,f^{n-1}(x))$.</reponse>
+</exo>

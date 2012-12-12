@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Suites et séries de fonctions</theme>
+	<enonce>Soit $\la>0$. On note $f$ la fonction $2\pi$-périodique définie par $f(x)=\cos(\la x)$ pour $x\in]-\pi,\pi]$.
+    &lt;br/&gt;
+    On note $S_n(f)$ la somme partielle de rang $n$ de la série de Fourier de $f$.</enonce>
+	<reponse value="false">Lorsque $\la$ est entier, $(S_n(f)(x))$ converge vers $0$ pour tout $x\in\dR$.</reponse>
+	<reponse value="true">Lorsque $\la$ est entier, $(S_n(f)(x))$ converge vers $f(x)$ pour tout $x\in\dR$.</reponse>
+	<reponse value="false">Lorsque $\la$ est réel non entier, $(S_n(f)(x))$ ne converge pas pour tout $x\in\dR$ car $f$ n'est pas continue sur $\dR$.</reponse>
+	<reponse value="true">Lorsque $\la$ est réel non entier, $(S_n(f)(x))$ converge pour tout $x\in\dR$ car $f$ satisfait les hypothèses du théorème de Dirichlet.</reponse>
+</exo>

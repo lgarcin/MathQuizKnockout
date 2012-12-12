@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Fonctions numériques</theme>
+	<enonce>Quelques limites en utilisant des équivalents :</enonce>
+	<reponse value="false">Pour $\beta \neq 0$ et $\alpha$ réels, $\lim\limits_{x\to0}\frac{\ln(\cos \alpha x)}{\ln(\cos\beta x)} = -\frac{\alpha^2}{\beta^2}$.</reponse>
+	<reponse value="true">Pour $\beta \neq 0$ et $\alpha$ réels, $\lim\limits_{x\to0}\frac{\ln(\cos \alpha x)}{\ln(\cos\beta x)} = \frac{\alpha^2}{\beta^2}$.</reponse>
+	<reponse value="true">$\lim\limits_{x\to\frac{\pi}{6}}\left(\tan\frac{3x}{2}\right)^{\tan(3x)} = e^{-1}$.</reponse>
+	<reponse value="false">$\lim\limits_{x\to\frac{\pi}{6}}\left(\tan\frac{3x}{2}\right)^{\tan(3x)} = e$.</reponse>
+</exo>

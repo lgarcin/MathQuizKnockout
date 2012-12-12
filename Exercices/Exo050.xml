@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soit $A=\begin{pmatrix}0 &amp; \cdots &amp; 0 &amp; n\\
+  \vdots &amp; \iddots &amp; \iddots &amp; 0\\
+  0 &amp; 2 &amp; \iddots &amp; \vdots\\
+  1 &amp; 0 &amp; \cdots &amp; 0\end{pmatrix}$.</enonce>
+	<reponse value="false">$A^2$ est diagonale donc $A$ est diagonalisable</reponse>
+	<reponse value="true">$A$ est diagonalisable car elle possède $n$ valeurs propres distinctes.</reponse>
+	<reponse value="true">Si $n$ est impair, $\frac{n+1}{2}\in\sp(A)$.</reponse>
+	<reponse value="false">Si $\la\in\sp(A)$, alors $-\la\in\sp(A)$.</reponse>
+</exo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Géométrie</theme>
+	<enonce>Soit $\cC$ la courbe d'équation polaire $\rho=a(1+\cos\te)$.</enonce>
+	<reponse value="false">La longueur de $\cC$ est $4a$.</reponse>
+	<reponse value="true">L'aire du domaine limité par $\cC$ est $\frac{3}{2}\pi a^2$.</reponse>
+	<reponse value="false">La courbure de $\cC$ au point d'angle polaire $\te$ est $\frac{1}{\cos\te}$.</reponse>
+	<reponse value="false">La détermination angulaire de $\cC$ au point d'angle polaire $\te$ est $\frac{3\te-\pi}{2}$.</reponse>
+</exo>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soient $M, N \in \cM_n(\dR)$ telles que $\forall (i, j) \in \dN^2$, $M_{i,j} = 1$, $N_{i,i} = 3$, $N_{i,j} = 1$ si $i \neq j$.
+        &lt;br/&gt;
+        On note $I_n$ la matrice identité de $\cM_n(\dR)$.
+    </enonce>
+	<reponse value="false">$\dim(\Ker M) = n^2-1$ et $M$ est inversible si et seulement si $n=1$.</reponse>
+	<reponse value="true">$M^p = n^{p-1}M$, $\forall p \in \dN^*$.</reponse>
+	<reponse value="false">$N^p = n^{p-1} 2^p M$, $\forall p \in \dN^*$.</reponse>
+	<reponse value="true">$\forall p\in\dN$, $N^p\in\vect(I_n,M)$.</reponse>
+</exo>

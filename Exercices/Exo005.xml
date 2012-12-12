@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Nombres complexes</theme>
+	<enonce>On cherche le lieu des points d'affixe $z$ tels que $z$, $z^2$ et $z^5$ soient les affixes de trois points alignés.
+		&lt;br/&gt;
+		On note $H$ cet ensemble de points et $H_{c}$ l'ensemble de leurs affixes.</enonce>
+	<reponse value="false">$z \in H_{c}$ si et seulement si $z$ est réel ou $z^{3}+z^{2}+z$ est imaginaire pur.</reponse>
+	<reponse value="false">$\im(z^3+z^2+z) = 3 \re(z)^2 - \im(z)^2 + 2 \re(z) +1$.</reponse>
+	<reponse value="false">$H$ est une hyperbole équilatère centrée en $\left(-\frac{1}{3}, 0\right)$ de grand axe parallèle à l'axe des imaginaires purs, de demi grand axe $\sqrt{\frac{2}{3}}$.</reponse>
+	<reponse value="true">$H$ contient une hyperbole centrée en $\left(-\frac{1}{3}, 0\right)$ de grand axe parallèle à l'axe des imaginaires purs, de demi grand axe $\sqrt{\frac{2}{3}}$ et dont les asymptotes ont comme coefficients directeurs $\sqrt{3}$ et $-\sqrt{3}$.</reponse>
+</exo>

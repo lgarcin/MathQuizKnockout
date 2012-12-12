@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre bilinéaire</theme>
+	<enonce>Soit $F$ le plan vectoriel de $\dR^3$ d'équation $x+y+z=0$.
+        &lt;br/&gt;
+        On munit $\dR^3$ du produit scalaire usuel.
+        &lt;br/&gt;
+        On note $p$ la projection orthogonale sur $F$ et $s$ la symétrie orthogonale par rapport à $F$.</enonce>
+	<reponse value="false">Il existe une base orthonormale de $\dR^3$ dans laquelle $s$ admet pour matrice $\begin{pmatrix}1&amp;0&amp;0\\0&amp;-1&amp;0\\0&amp;0&amp;-1\end{pmatrix}$.</reponse>
+	<reponse value="true">$p$ est un endomorphisme symétrique.</reponse>
+	<reponse value="true">$s$ est un automorphisme orthogonal.</reponse>
+	<reponse value="false">La matrice de $p$ dans la base canonique est $\frac{1}{\sqrt3}\begin{pmatrix}2&amp;-1&amp;-1\\-1&amp;2&amp;-1\\-1&amp;-1&amp;2\end{pmatrix}$.</reponse>
+</exo>

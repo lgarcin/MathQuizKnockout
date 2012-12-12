@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Séries numériques</theme>
+	<enonce>Les séries suivantes convergent-elles ?</enonce>
+	<reponse value="true">$\sum_{n\geq1}\frac{(-1)^n}{\sqrt n}$</reponse>
+	<reponse value="false">$\sum_{n\geq1}\frac{1}{\sqrt n}$</reponse>
+	<reponse value="false">$\sum_{n\geq1}\frac{(-1)^n}{\sqrt n}\left(1+\frac{(-1)^{n^2}}{\sqrt n}\right)$</reponse>
+	<reponse value="true">$\sum_{n\geq0}(-1)^n\frac{n^2+n+1}{n^3+n^2+n+1}$</reponse>
+</exo>

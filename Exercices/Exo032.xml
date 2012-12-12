@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre générale</theme>
+	<theme>Algèbre linéaire</theme>
+	<enonce>Soit $f : \cM_n(\dR) \rightarrow \dR$ et vérifiant $\forall (A,B) \in (M_{n}(\dR))^{2}$, $f(AB) = f(A)f(B)$.
+    &lt;br/&gt;
+    On note $O_n$ la matrice nulle et $I_n$ la matrice identité de $\cM_n(\dR)$.</enonce>
+	<reponse value="false">$f$ est un morphisme de groupe pour $M_{n}(\dR)$ muni de la multiplication usuelle des matrices.</reponse>
+	<reponse value="false">Nécessairement $f(O_n) = 0$ et $f(I_n) = 1$.</reponse>
+	<reponse value="true">S'il existe $p\in \dN$ tel que $A^p=0$ alors $f(A) = 0$.</reponse>
+	<reponse value="false">$A\in\cM_n(\dR)$ est inversible si et seulement si $f(A)\neq0$.</reponse>
+</exo>

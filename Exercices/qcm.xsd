@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="exo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="theme" minOccurs="1" maxOccurs="unbounded"
+					block="restriction">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Nombres complexes" />
+							<xs:enumeration value="Géométrie" />
+							<xs:enumeration value="Fonctions de plusieurs variables" />
+							<xs:enumeration value="Intégration" />
+							<xs:enumeration value="Arithmétique" />
+							<xs:enumeration value="Fonctions numériques" />
+							<xs:enumeration value="Suites numériques" />
+							<xs:enumeration value="Algèbre générale" />
+							<xs:enumeration value="Equations différentielles" />
+							<xs:enumeration value="Polynômes" />
+							<xs:enumeration value="Algèbre linéaire" />
+							<xs:enumeration value="Algèbre bilinéaire" />
+							<xs:enumeration value="Suites et séries de fonctions" />
+							<xs:enumeration value="Séries numériques" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="enonce" type="xs:string" minOccurs="1"
+					maxOccurs="1" />
+				<xs:element name="reponse" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="value" type="xs:boolean" use="required" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

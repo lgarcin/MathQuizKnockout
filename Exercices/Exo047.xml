@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre bilinéaire</theme>
+	<enonce>Soit $\cC$ la courbe d'équation $x^2+4xy+2y^2-6x+4y-5=0$ dans un repère orthonormé.</enonce>
+	<reponse value="false">$\cC$ est vide.</reponse>
+	<reponse value="true">$\cC$ est une hyperbole.</reponse>
+	<reponse value="false">Les demi-grand axe et demi-petit axe de $\cC$ sont respectivement $\frac{\sqrt{17}+3}{2}$ et $\frac{\sqrt{17}-3}{2}$.</reponse>
+	<reponse value="true">$\cC$ admet deux droites asymptotes faisant un angle de mesure $2\arctan\left(\frac{\sqrt{17}-3}{2\sqrt2}\right)$.</reponse>
+</exo>

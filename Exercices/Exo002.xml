@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Géométrie</theme>
+	<theme>Nombres complexes</theme>
+	<enonce>Soit le plan rapporté à un repère orthonormé direct $(O, \vec\imath, \vec\jmath)$.
+		&lt;br/&gt;
+		On considère alors les points $I= (1, 2)$, $M = (2, 3)$ et $M' = (\sqrt{3}, 3+\sqrt{3})$.
+		&lt;br/&gt;
+		La similitude de centre $I$ qui transforme $M$ en $M'$ est alors</enonce>
+	<reponse value="true">de rapport $2$</reponse>
+	<reponse value="false">d'angle $\frac{\pi}{4}$</reponse>
+	<reponse value="false">de rapport $\frac{1}{2}$</reponse>
+	<reponse value="false">d'angle $\frac{\pi}{3}$</reponse>
+</exo>
