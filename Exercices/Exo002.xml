@@ -3,6 +3,7 @@
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Géométrie</theme>
 	<theme>Nombres complexes</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soit le plan rapporté à un repère orthonormé direct $(O, \vec\imath, \vec\jmath)$.
 		&lt;br/&gt;
 		On considère alors les points $I= (1, 2)$, $M = (2, 3)$ et $M' = (\sqrt{3}, 3+\sqrt{3})$.

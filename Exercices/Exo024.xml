@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Polynômes</theme>
+	<niveau>Première année</niveau>
 	<enonce>Pour $n\in\dN$, on pose $P_n = \sum_{k=0}^n\frac{X^k}{k!}$.</enonce>
 	<reponse value="false">$\forall n \in \dN \setminus \{0, 1, 2\}$, $P_n$ possède au moins une racine multiple car $P'_n = P_{n-1}$.</reponse>
 	<reponse value="true">$\forall n \in \dN$, $P_n$ est l'unique polynôme vérifiant $P_{n}-P'_{n} = \frac{X^n}{n!}$.</reponse>

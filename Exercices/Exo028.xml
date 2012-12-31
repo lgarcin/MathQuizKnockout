@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre linéaire</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soient $E$ est un espace vectoriel de dimension finie et $f\in\mathcal{L}(E)$.
 		&lt;br/&gt;
 		Les conditions suivantes sont équivalentes à $\Ker f \oplus \Im f = E$.</enonce>

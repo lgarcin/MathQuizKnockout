@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre linéaire</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soit $n\in\dN$.</enonce>
 	<reponse value="true">La famille $(x\mapsto1,x\mapsto\cos x,\dots x\mapsto\cos nx)$ est libre dans $\dR^\dR$.</reponse>
 	<reponse value="false">La famille $(x\mapsto1,x\mapsto\cos x,\dots x\mapsto\cos^nx)$ est libre dans $\dR^\dR$.</reponse>

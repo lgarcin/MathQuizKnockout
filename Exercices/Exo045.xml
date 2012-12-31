@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre linéaire</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soit $n\in\dN^*$. On note $H_n$ l'ensemble des matrices de $\cM_n(\dR)$ dont les sommes des coefficients par ligne et par colonne sont égales entre elles.</enonce>
 	<reponse value="false">$H_n$ est un sous-espace vectoriel de $\cM_n(\dR)$ de dimension $(n-1)^2$.</reponse>
 	<reponse value="true">$H_n$ est un sous-anneau de $\cM_n(\dR)$.</reponse>

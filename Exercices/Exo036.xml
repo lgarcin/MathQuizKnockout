@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Suites et séries de fonctions</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>Parmi les affirmations suivantes, lesquelles sont vraies ?</enonce>
 	<reponse value="true">Toute fonction $2\pi$-périodique de classe $\cC^1$ est la somme de sa série de Fourier.</reponse>
 	<reponse value="false">Toute fonction $2\pi$-périodique et continue est la somme de sa série de Fourier.</reponse>

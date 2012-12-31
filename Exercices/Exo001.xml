@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Nombres complexes</theme>
+	<niveau>Première année</niveau>
 	<enonce>Dans les assertions suivantes, lesquelles sont vraies ?</enonce>
 	<reponse value="false">$\forall \theta \in \dR, \cos{5\theta} = 16 \cos^{5}{\theta} + 5 \cos{\theta}$</reponse>
 	<reponse value="true">$\forall \theta \in \dR, \cos{5\theta} = 16 \cos^{5}{\theta} - 20 \cos^{3}{\theta} + 5 \cos{\theta}$</reponse>

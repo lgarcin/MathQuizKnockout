@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre bilinéaire</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>On considère des formes quadratiques sur un $\dR$-espace vectoriel de dimension finie.
         &lt;br/&gt;
         Parmi les affirmations suivantes, lesquelles sont vraies ?</enonce>

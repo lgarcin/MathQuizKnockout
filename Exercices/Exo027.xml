@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre linéaire</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soient $H$ et $K$ deux sous-espaces vectoriels supplémentaires d'un espace vectoriel $E$ de dimension finie.
 		&lt;br/&gt;
 		Soit $(e_{1}, \dots, e_{k})$ une base de $K$ et $a \in H$.</enonce>

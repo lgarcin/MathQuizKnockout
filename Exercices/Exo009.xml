@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Fonctions numériques</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soient $a$ et $b$ deux fonctions réelles à valeurs strictement positives et $\alpha \in \dR$ tels que $a\;\mathop{\sim}_\alpha\;b$.</enonce>
 	<reponse value="true">Il existe une fonction $\varepsilon$ définie sur un voisinage de $\alpha$ avec $\lim\limits_\alpha\varepsilon = 0$ et $\ln\circ\; a = \ln\circ\; b + \ln\circ\;(1+\varepsilon)$.</reponse>
 	<reponse value="false">$\ln\circ\; a\;\mathop{\sim}_\alpha\;\ln\circ\; b$.</reponse>

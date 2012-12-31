@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Arithmétique</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soient $n$ et $p$ deux entiers naturels non nuls et $x$ un entier relatif non nul et non égal à $1$.
 		&lt;br/&gt;
 		On note $U$ l'ensemble des entiers relatifs $x$ tels que $\forall n \geq 2$, $6$ divise $x^n-x$.</enonce>

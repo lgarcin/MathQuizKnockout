@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Suites et séries de fonctions</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>On définit une fonction $f$ $2\pi$-périodique en posant pour tout $x\in\dR$ :
 	\[f(x)=\sum_{n\in\dN}\frac{\sin^3(nx)}{n!}\]
 	On note classiquement $a_n$ et $b_n$ les coefficients réels de la série de Fourier associée à $f$.</enonce>

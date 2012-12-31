@@ -35,6 +35,7 @@ MathJax.Hub.Config({
 
 	}
 });
+
 MathJax.Hub.Register.StartupHook("TeX Jax Ready", function() {
 	var TEX = MathJax.InputJax.TeX;
 	var PREFILTER = TEX.prefilterMath;
@@ -68,11 +69,11 @@ function Item() {
 		})
 	}
 	self.score = ko.computed(function() {
-		var s = 0;
+		var s = 1;
 		for (var i in self.reponses()) {
 			var reponse = self.reponses()[i];
-			if (reponse.value === reponse.userValue()) {
-				s++;
+			if (reponse.value != reponse.userValue()) {
+				s = 0;
 			}
 		}
 		return s;
@@ -98,48 +99,70 @@ function QuizModel() {
 		idx = self.index() + 1;
 		location.hash = idx.toString();
 	};
+	self.submit = function() {
+		location.hash = "results";
+	};
 	self.score = ko.computed(function() {
 		var s = 0;
 		for (var i in self.itemList) {
 			s += self.itemList[i].score();
 		}
 		return s;
-	}, self)
+	}, self);
+	self.percentage = ko.computed(function() {
+		return self.score() / self.fileList.length * 100;
+	}, self);
+	self.results = ko.computed(function() {
+		if (self.percentage() > 75) {
+			return {
+				percentage : self.percentage(),
+				smiley : "img/level1.png",
+				comment : "Super"
+			};
+		} else if (self.percentage() > 50) {
+			return {
+				percentage : self.percentage(),
+				smiley : "img/level2.png",
+				comment : "Moyen plus"
+			};
+		} else if (self.percentage() > 25) {
+			return {
+				percentage : self.percentage(),
+				smiley : "img/level3.png",
+				comment : "Moyen moins"
+			};
+		} else {
+			return {
+				percentage : self.percentage(),
+				smiley : "img/level4.png",
+				comment : "Gros nul"
+			};
+		}
+
+	})
+	self.smiley = ko.computed(function() {
+		if (self.percentage() > 75) {
+			return "img/level1.png";
+		} else if (self.percentage() > 50) {
+			return "img/level2.png";
+		} else if (self.percentage() > 25) {
+			return "img/level3.png";
+		} else {
+			return "img/level4.png";
+		}
+	});
 	Sammy(function() {
+		this.get('results', function() {
+			$('.question').hide();
+			$('.results').show();
+		})
 		this.get('#:index', function() {
+			$('.question').show();
+			$('.results').hide();
 			self.index(parseInt(this.params.index));
 			MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 		});
 	}).run();
 }
-
-/*
- function QuizModel() {
- var self = this;
- self.fileList = ['Exercices/Exo001.xml', 'Exercices/Exo002.xml', 'Exercices/Exo003.xml', 'Exercices/Exo004.xml', 'Exercices/Exo005.xml', 'Exercices/Exo006.xml', 'Exercices/Exo007.xml'];
- self.itemList = [];
- for (var i in self.fileList) {
- var item = new Item();
- item.load(self.fileList[i]);
- self.itemList.push(item);
- }
- self.index = ko.observable(0);
- self.previous = function() {
- self.index(self.index() - 1)
- MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
- };
- self.next = function() {
- self.index(self.index() + 1)
- MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
- };
- self.score = ko.computed(function() {
- var s = 0;
- for (var i in self.itemList) {
- s += self.itemList[i].score();
- }
- return s;
- }, self)
- }
- */
 
 ko.applyBindings(new QuizModel());

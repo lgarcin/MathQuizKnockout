@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Fonctions numériques</theme>
+	<niveau>Première année</niveau>
 	<enonce>On pose $f(x)=e^\frac{1}{x}\sqrt{x(x+2)}$ pour tout $x\in\dR$.</enonce>
 	<reponse value="false">Aux voisinages de $+\infty$ et $-\infty$ on a $\sqrt{x(x+2)} = x \left(1+\frac{1}{x} - \frac{1}{2x^2} + \mathop{o}\left(\frac{1}{x^2}\right)\right)$.</reponse>
 	<reponse value="true">En $+\infty$, la courbe représentative de $f$ admet la droite d'équation $y = x+2$ comme asymptote.</reponse>

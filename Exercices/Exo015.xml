@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Equations différentielles</theme>
+	<niveau>Première année</niveau>
 	<enonce>On cherche à déterminer les fonctions $g$ de classe $\mathcal{C}^1$ sur $\dR^*_+$ et vérifiant
 		\[(P)\qquad\forall x &gt; 0, g'(x) = g\left(\frac{1}{x}\right)\]</enonce>
 	<reponse value="false">Si $g$ vérifie $(P)$ alors $g$ est de classe $\mathcal{C}^2$ sur $\dR^*_+$ et $x^2g''(x)=g(x)$ pour tout $x\in\dR^*_+$.</reponse>

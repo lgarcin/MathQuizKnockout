@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Fonctions de plusieurs variables</theme>
+	<niveau>Première année</niveau>
 	<enonce>On considère le domaine $D = \{(x, y) \in \dR^2, x \geq 0, y \geq 0, x^2+y^2 \leq 1 \text{ et } x^2+y^2-2y &gt; 0\}$ dont on veut calculer l'aire $A_{D}$.
 		&lt;br/&gt;
 		On note $\varphi : \dR_+\times]-\pi,\pi] \to \dR^2, (\rho, \theta) \mapsto (\rho \cos\theta,\rho \sin\theta)$.</enonce>

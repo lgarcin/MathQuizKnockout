@@ -2,6 +2,7 @@
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Polynômes</theme>
 	<theme>Arithmétique</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soit $P = \sum_{k=0}^na_k X^k$ avec $a_k \in \mathbb{Z}$ pour $0\leq k\leq n$.</enonce>
 	<reponse value="true">Si $(p,q)\in\mathbb{Z}\times\mathbb{Z}^*$ sont premiers entre eux et tels que $\frac{p}{q}$ est racine de $P$ alors $p$ divise $a_0$ et $q$ divise $a_n$.</reponse>
 	<reponse value="false">Si $2X^3-X^2-13X+5$ admet une racine rationnelle, c'est nécessairement $1$, $5$, $\frac{1}{2}$ ou $\frac{5}{2}$.</reponse>

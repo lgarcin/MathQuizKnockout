@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre bilinéaire</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>Soient $E$ un espace euclidien de dimension $n\geq2$, $a$ un vecteur unitaire de $E$ et $\la$ un réel.
         &lt;br/&gt;
         On définit une forme quadratique $Q$ par $Q(x)=2\langle x,a\rangle^2+\la\|x\|^2$ pour $x\in E$.</enonce>

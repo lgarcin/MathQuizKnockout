@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre linéaire</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>Soit $A=\begin{pmatrix}0 &amp; \cdots &amp; 0 &amp; n\\
   \vdots &amp; \iddots &amp; \iddots &amp; 0\\
   0 &amp; 2 &amp; \iddots &amp; \vdots\\

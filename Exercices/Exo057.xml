@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="Exercices/qcm.xsd">
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Suites numériques</theme>
+	<niveau>Première année</niveau>
 	<enonce>On définit une suite réelle $(u_n)$ par ses deux premiers $u_0,u_1\in\dR_+$ et par la relation de récurrence
   \[\forall n\geq1,\;u_{n+1}=\frac{u_n^2}{1+u_nu_{n-1}}\]</enonce>
 	<reponse value="false">La suite $(u_n)$ est minorée par $1$.</reponse>

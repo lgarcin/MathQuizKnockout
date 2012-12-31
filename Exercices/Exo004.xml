@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Nombres complexes</theme>
+	<niveau>Première année</niveau>
 	<enonce>On considère l'application $f$ qui à tout complexe $z \neq i$ associe $f(z) = \frac{z+i}{z-i}$.
 		&lt;br/&gt;
 		On note $\mathbb{U} = \{z \in \dC, |z| = 1\}$ et $i\dR = \{z \in \dC, \re(z) = 0\}$.</enonce>

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcm.xsd">
-  <theme>Algèbre bilinéaire</theme>
-  <enonce>Soient $A$ et $B$ les matrices d'un même endomorphisme d'un espace euclidien $E$ dans deux bases orthonormales.</enonce>
-  <reponse value="true">$\tr(\trans AA)=\tr(\trans BB)$</reponse>
-  <reponse value="false">$A$ et $B$ sont des matrices orthogonales.</reponse>
-  <reponse value="true">$A$ et $B$ sont semblables.</reponse>
-  <reponse value="true">$A$ est symétrique si et seulement si $B$ l'est.</reponse>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre bilinéaire</theme>
+	<niveau>Première année</niveau>
+	<enonce>Soient $A$ et $B$ les matrices d'un même endomorphisme d'un espace euclidien $E$ dans deux bases orthonormales.</enonce>
+	<reponse value="true">$\tr(\trans AA)=\tr(\trans BB)$</reponse>
+	<reponse value="false">$A$ et $B$ sont des matrices orthogonales.</reponse>
+	<reponse value="true">$A$ et $B$ sont semblables.</reponse>
+	<reponse value="true">$A$ est symétrique si et seulement si $B$ l'est.</reponse>
 </exo>

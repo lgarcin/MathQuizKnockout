@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Suites et séries de fonctions</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>Soit $\la>0$. On note $f$ la fonction $2\pi$-périodique définie par $f(x)=\cos(\la x)$ pour $x\in]-\pi,\pi]$.
     &lt;br/&gt;
     On note $S_n(f)$ la somme partielle de rang $n$ de la série de Fourier de $f$.</enonce>

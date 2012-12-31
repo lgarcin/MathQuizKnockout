@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre générale</theme>
+	<niveau>Première année</niveau>
 	<enonce>A propos des structures.</enonce>
 	<reponse value="false">L'ensemble des polynômes de degrés égaux à $n$ ($n\geq1$) pour l'addition usuelle des polynômes est un groupe.</reponse>
 	<reponse value="false">L'ensemble des matrices carrés de taille $n$ ($n\geq2$) pour l'addition et la multiplication usuelles des matrices est un corps.</reponse>

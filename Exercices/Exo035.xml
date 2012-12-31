@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Nombres complexes</theme>
+	<niveau>Première année</niveau>
 	<enonce>On désigne par $j$ le nombre complexe $e^\frac{2i\pi}{3}$. Soient $a,b,c\in\dR$. Le système $\syst{x+y+z&amp;a\\x+jy+j^2z&amp;=b\\x+j^2y+jz&amp;=c}$</enonce>
 	<reponse value="false">n'admet pas de solution.</reponse>
 	<reponse value="false">admet au moins deux solutions.</reponse>

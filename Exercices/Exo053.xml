@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcm.xsd">
-  <theme>Algèbre linéaire</theme>
-  <enonce>Soit $\al\in\dC$ et $A=(\al^{i+j-2})_{1\leq i,j\leq n}$.</enonce>
-  <reponse value="false">$A$ est symétrique donc diagonalisable.</reponse>
-  <reponse value="true">Le rang de $A$ est $1$.</reponse>
-  <reponse value="true">Si $\al^{2n}\neq1$, $A$ est diagonalisable.</reponse>
-  <reponse value="true">La trace de $A$ est une valeur propre de $A$.</reponse>
+<exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="qcm.xsd">
+	<theme>Algèbre linéaire</theme>
+	<niveau>Deuxième année</niveau>
+	<enonce>Soit $\al\in\dC$ et $A=(\al^{i+j-2})_{1\leq i,j\leq n}$.</enonce>
+	<reponse value="false">$A$ est symétrique donc diagonalisable.</reponse>
+	<reponse value="true">Le rang de $A$ est $1$.</reponse>
+	<reponse value="true">Si $\al^{2n}\neq1$, $A$ est diagonalisable.</reponse>
+	<reponse value="true">La trace de $A$ est une valeur propre de $A$.</reponse>
 </exo>

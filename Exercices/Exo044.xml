@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Séries numériques</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>Les séries suivantes convergent-elles ?</enonce>
 	<reponse value="true">$\sum_{n\geq1}\frac{(-1)^n}{\sqrt n}$</reponse>
 	<reponse value="false">$\sum_{n\geq1}\frac{1}{\sqrt n}$</reponse>

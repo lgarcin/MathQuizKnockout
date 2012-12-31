@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Suites et séries de fonctions</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>On s'intéresse à la série entière
   $f(x)=\sum_{n\in\dN^*}\frac{x^n}{n}\cos\frac{n\pi}{3}$
   On note $R$ son rayon de convergence.</enonce>

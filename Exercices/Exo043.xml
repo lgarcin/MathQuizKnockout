@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Arithmétique</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soient $(a,b)\in\dZ^2$ et $(\cS)$ le système $\syst{x&amp;\equiv a[10]\\x&amp;\equiv b[8]}$ d'inconnue $x\in\dZ$.</enonce>
 	<reponse value="false">Le système $(\cS)$ admet toujours une solution.</reponse>
 	<reponse value="true">Si $a-b$ est pair, le système admet une infinité de solutions.</reponse>

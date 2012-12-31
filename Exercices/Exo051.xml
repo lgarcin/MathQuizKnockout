@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Suites et séries de fonctions</theme>
+	<niveau>Deuxième année</niveau>
 	<enonce>Soit $(a_n)$ la suite définie par $a_0=a_1=a_2=1$ et par la relation de récurrence
 	\[\forall n\geq2\; a_{n+1}=a_n-\frac{a_{n-2}}{2(n+1)}\]
 	On note $f(x)$ la somme de la série entière $\sum_{n\in\dN}a_nx^n$.

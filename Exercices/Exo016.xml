@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Fonctions de plusieurs variables</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soit $c\in\dR^*_+$. On cherche à résoudre l'équation aux dérivées partielles $(E)$ : $c^{2} \frac{\partial^2f}{\partial x^2} - \frac{\partial^2f}{\partial y^2} = 0$ où $f$ est une fonction de $\dR^2$ à valeurs réelles admettant des dérivées partielles secondes.
 		&lt;br/&gt;
 		On posera $u(x, y) = x + cy$ et $v(x, y) = x-cy$.

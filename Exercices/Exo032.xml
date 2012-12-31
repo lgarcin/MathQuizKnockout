@@ -3,6 +3,7 @@
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre générale</theme>
 	<theme>Algèbre linéaire</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soit $f : \cM_n(\dR) \rightarrow \dR$ et vérifiant $\forall (A,B) \in (M_{n}(\dR))^{2}$, $f(AB) = f(A)f(B)$.
     &lt;br/&gt;
     On note $O_n$ la matrice nulle et $I_n$ la matrice identité de $\cM_n(\dR)$.</enonce>

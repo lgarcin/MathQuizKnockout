@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Suites numériques</theme>
+	<niveau>Première année</niveau>
 	<enonce>On considère les suites $(u_n)_{n \geq 2}$ et $(v_n)_{n \geq 2}$ définies par :
 		\[\forall n \geq 2, \qquad u_n = \prod_{k=2}^n\cos\frac{\pi}{2^k}, \qquad v_n = u_n \sin\frac{\pi}{2^n}\]</enonce>
 	<reponse value="false">$(u_n)_{n \geq 2}$ est croissante et majorée par $1$. Elle converge donc.</reponse>

@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Fonctions numériques</theme>
+	<niveau>Première année</niveau>
 	<enonce>On suppose que $f$ est une fonction continue sur $\dR$ admettant une limite finie $\ell$ en $+\infty$ et $a$ est un réel strictement positif.</enonce>
 	<reponse value="true">$\forall y \in \dR$, $x \mapsto \int_0^xf(t)\,dt$ est continue sur $[y,y+a]$ et dérivable sur $]y,y+a[$.</reponse>
 	<reponse value="true">$\lim_{y\to+\infty}\int_y^{y+a}f(t)\,dt = a\ell$.</reponse>

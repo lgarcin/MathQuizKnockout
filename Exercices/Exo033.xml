@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre bilinéaire</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soient $E$ un espace vectoriel euclidien, $u$ un vecteur normé fixé de $E$ et $a$ un scalaire.
     &lt;br/&gt;
     On définit $f_a$ par : $\forall x \in E$, $f(x) = x + a \langle x,u\rangle u$.</enonce>

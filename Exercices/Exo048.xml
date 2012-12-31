@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Géométrie</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soit $\cC$ la courbe d'équation polaire $\rho=a(1+\cos\te)$.</enonce>
 	<reponse value="false">La longueur de $\cC$ est $4a$.</reponse>
 	<reponse value="true">L'aire du domaine limité par $\cC$ est $\frac{3}{2}\pi a^2$.</reponse>

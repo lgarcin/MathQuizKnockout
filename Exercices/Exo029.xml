@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre linéaire</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soient $E$ est un espace vectoriel de dimension $n\geq1$ et $f\in\mathcal{L}(E)$.
 		&lt;br/&gt;
 		On suppose que $f^n=0$.</enonce>

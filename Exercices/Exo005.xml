@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Nombres complexes</theme>
+	<niveau>Première année</niveau>
 	<enonce>On cherche le lieu des points d'affixe $z$ tels que $z$, $z^2$ et $z^5$ soient les affixes de trois points alignés.
 		&lt;br/&gt;
 		On note $H$ cet ensemble de points et $H_{c}$ l'ensemble de leurs affixes.</enonce>

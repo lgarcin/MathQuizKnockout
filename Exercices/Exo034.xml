@@ -3,6 +3,7 @@
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Algèbre bilinéaire</theme>
 	<theme>Géométrie</theme>
+	<niveau>Première année</niveau>
 	<enonce>L'espace $\mathbf{E}$ est rapporté à un repère orthonormal $(O, \vec i, \vec j, \vec k)$. L'espace vectoriel associé $E$ est rapporté à la base $(\vec i, \vec j, \vec k)$.
     &lt;br/&gt;
     Soit $D$ la droite de $\mathbf{E}$ dont la représentation paramétrique est donnée par : $\syst{x&amp;=1+t\\y&amp;=1-2t\\z&amp;=1+t}$.

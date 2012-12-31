@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Nombres complexes</theme>
+	<niveau>Première année</niveau>
 	<enonce>Soit $n \in \dN^*$. On cherche à résoudre $\sum_{k=1}^n\binom{n}{k}\cos(2k\theta) = 0$ où $\theta$ est une inconnue réelle.</enonce>
 	<reponse value="false">Si $\theta$ est solution alors $\sum_{k=1}^n\binom{n}{k}\sin^2(k\theta) = 2^n$.</reponse>
 	<reponse value="false">$\sum_{k=1}^n\binom{n}{k} \cos(2k\theta) = \cos(n\theta) \left(\frac{\cos\theta}{2}\right)^n$</reponse>

@@ -2,6 +2,7 @@
 <exo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="qcm.xsd">
 	<theme>Fonctions numériques</theme>
+	<niveau>Première année</niveau>
 	<enonce>On pose $f(x)=e^\frac{x-1}{x^2}$ si $x\neq0$ et $f(0)=0$.</enonce>
 	<reponse value="false">$f$ est continue sur $\dR$, dérivable sur $\dR^*$, non dérivable en $0$.</reponse>
 	<reponse value="true">$\forall x \in \dR^*$, $f'(x) = \frac{2-x}{x^3} e^\frac{x-1}{x^2}$.</reponse>
