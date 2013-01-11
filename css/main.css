@@ -1,18 +1,11 @@
-
-
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+ Author's custom styles
+ ========================================================================== */
 
-body>div{
-	width: 800px;
-	margin: 0 auto;
+.control-label {
+	margin-top: -2px;
 }
 
-body>div>p{
-	text-align: center;
-}
-
-body>div>nav{
-	text-align: center;
+dt,dd {
+	margin-bottom: 20px;
 }

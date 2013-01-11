@@ -26,9 +26,9 @@ MathJax.Hub.Config({
 			"te" : "{\\theta}",
 			"trans" : ["{}^t#1", 1],
 			"tr" : "{\\mathop{Tr}}",
-			"O" : "{\\DeclareMathOperator{O}}",
-			"rg" : "{\\DeclareMathOperator{rg}}",
-			"sp" : "{\\DeclareMathOperator{sp}}",
+			"O" : "{\\mathrm{O}}",
+			"rg" : "{\\mathrm{rg}}",
+			"sp" : "{\\mathrm{sp}}",
 			"iddots" : "{\\kern3mu\\raise1mu{.}\\kern3mu\\raise6mu{.}\\kern3mu\\raise12mu{.}}",
 			"al" : "{\\alpha}"
 		}
@@ -47,27 +47,26 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready", function() {
 	});
 });
 
+$('#results').click(function() {
+	$('#resultsModal').modal('hide');
+});
+
 function Item() {
 	var self = this;
 	self.enonce = ko.observable();
 	self.reponses = ko.observableArray();
-	self.load = function(file) {
-		$.ajax({
-			dataType : 'xml',
-			url : file,
-			success : function(xml) {
-				self.enonce($(xml).find("enonce").text());
-				self.reponses([]);
-				$(xml).find("reponse").each(function() {
-					self.reponses.push({
-						reponse : $(this).text(),
-						value : $(this).attr('value') === "true",
-						userValue : ko.observable(false)
-					});
-				})
-			}
+	self.loadXml = function(xml) {
+		self.enonce($(xml).find("enonce").text());
+		self.reponses([]);
+		$(xml).find("reponse").each(function() {
+			self.reponses.push({
+				reponse : $(this).text(),
+				value : $(this).attr('value') === "true",
+				userValue : ko.observable(false)
+			})
 		})
-	}
+	};
+
 	self.score = ko.computed(function() {
 		var s = 1;
 		for (var i in self.reponses()) {
@@ -82,64 +81,88 @@ function Item() {
 
 function QuizModel() {
 	var self = this;
-	self.fileList = ['Exercices/Exo001.xml', 'Exercices/Exo002.xml', 'Exercices/Exo003.xml', 'Exercices/Exo004.xml', 'Exercices/Exo005.xml', 'Exercices/Exo006.xml', 'Exercices/Exo007.xml'];
-	self.itemList = [];
-	for (var i in self.fileList) {
-		var item = new Item();
-		item.load(self.fileList[i]);
-		self.itemList.push(item);
-	}
+	self.itemList = ko.observableArray();
 	self.index = ko.observable();
-	location.hash = '0';
-	self.previous = function() {
-		idx = self.index() - 1;
-		location.hash = idx.toString();
+	self.number = ko.observable(20);
+	self.niveau = ko.observable("Tout le programme");
+	self.themes = ko.observableArray();
+	self.view = ko.observable('choice');
+	self.range = ko.observableArray();
+
+	location.hash = 'choice';
+
+	$.getJSON('themes.php', function(themes) {
+		$.each(themes, function(key, val) {
+			self.themes.push({
+				theme : ko.observable(val[0]),
+				check : ko.observable(false)
+			});
+		});
+	});
+
+	self.choice = function() {
+		self.range.removeAll();
+		for (var i = 1; i <= self.number(); i++) {
+			self.range.push(i);
+		}
+		$.get('choice.php', {
+			number : self.number(),
+			niveau : self.niveau()
+		}, function(xml) {
+			$(xml).find("exo").each(function() {
+				var item = new Item();
+				item.loadXml(this);
+				self.itemList.push(item);
+			});
+			location.hash = '1';
+		}, 'xml');
 	};
-	self.next = function() {
-		idx = self.index() + 1;
-		location.hash = idx.toString();
-	};
-	self.submit = function() {
-		location.hash = "results";
-	};
+
 	self.score = ko.computed(function() {
 		var s = 0;
-		for (var i in self.itemList) {
-			s += self.itemList[i].score();
+		for (var i in self.itemList()) {
+			s += self.itemList()[i].score();
 		}
 		return s;
 	}, self);
+
 	self.percentage = ko.computed(function() {
-		return self.score() / self.fileList.length * 100;
+		return self.score() / self.number() * 100;
 	}, self);
+
 	self.results = ko.computed(function() {
 		if (self.percentage() > 75) {
 			return {
+				score : self.score(),
 				percentage : self.percentage(),
 				smiley : "img/level1.png",
-				comment : "Super"
+				comment : "Tout baigne !"
 			};
 		} else if (self.percentage() > 50) {
 			return {
+				score : self.score(),
 				percentage : self.percentage(),
 				smiley : "img/level2.png",
-				comment : "Moyen plus"
+				comment : "Bien sans plus"
 			};
 		} else if (self.percentage() > 25) {
 			return {
+				score : self.score(),
 				percentage : self.percentage(),
 				smiley : "img/level3.png",
-				comment : "Moyen moins"
+				comment : "Encore un petit effort"
 			};
 		} else {
 			return {
+				score : self.score(),
 				percentage : self.percentage(),
 				smiley : "img/level4.png",
-				comment : "Gros nul"
+				comment : "Ca craint..."
 			};
 		}
 
 	})
+
 	self.smiley = ko.computed(function() {
 		if (self.percentage() > 75) {
 			return "img/level1.png";
@@ -151,16 +174,23 @@ function QuizModel() {
 			return "img/level4.png";
 		}
 	});
+
 	Sammy(function() {
+		this.get('choice', function() {
+			self.view('choice');
+		});
 		this.get('results', function() {
-			$('.question').hide();
-			$('.results').show();
-		})
+			self.view('results');
+		});
 		this.get('#:index', function() {
-			$('.question').show();
-			$('.results').hide();
-			self.index(parseInt(this.params.index));
-			MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+			ind = parseInt(this.params.index);
+			if (ind <= 0 || ind > self.number()) {
+				location.hash = self.index().toString();
+			} else {
+				self.view('question');
+				self.index(parseInt(this.params.index));
+				MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+			}
 		});
 	}).run();
 }

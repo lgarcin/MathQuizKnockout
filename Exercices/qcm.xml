@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<qcm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="test.xsd">
+	<exo>
+		<theme>Nombres complexes</theme>
+		<niveau>Première année</niveau>
+		<enonce>Dans les assertions suivantes, lesquelles sont vraies ?</enonce>
+		<reponse value="false">$\forall \theta \in \dR, \cos{5\theta} = 16 \cos^{5}{\theta} + 5 \cos{\theta}$</reponse>
+		<reponse value="true">$\forall \theta \in \dR, \cos{5\theta} = 16 \cos^{5}{\theta} - 20 \cos^{3}{\theta} + 5 \cos{\theta}$</reponse>
+		<reponse value="true">$\cos{\frac{\pi}{10}} = \sqrt{\frac{5+\sqrt{5}}{8}}$</reponse>
+		<reponse value="false">$\cos{\frac{\pi}{10}} = \sqrt{\frac{5-\sqrt{5}}{8}}$ car $\cos{\frac{\pi}{10}} \leq \cos{\frac{\pi}{3}}$</reponse>
+	</exo>
+	<exo>
+		<theme>Géométrie</theme>
+		<theme>Nombres complexes</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit le plan rapporté à un repère orthonormé direct $(O, \vec\imath, \vec\jmath)$.
+		&lt;br/&gt;
+		On considère alors les points $I= (1, 2)$, $M = (2, 3)$ et $M' = (\sqrt{3}, 3+\sqrt{3})$.
+		&lt;br/&gt;
+		La similitude de centre $I$ qui transforme $M$ en $M'$ est alors</enonce>
+		<reponse value="true">de rapport $2$</reponse>
+		<reponse value="false">d'angle $\frac{\pi}{4}$</reponse>
+		<reponse value="false">de rapport $\frac{1}{2}$</reponse>
+		<reponse value="false">d'angle $\frac{\pi}{3}$</reponse>
+	</exo>
+	<exo>
+		<theme>Nombres complexes</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $n \in \dN^*$. On cherche à résoudre $\sum_{k=1}^n\binom{n}{k}\cos(2k\theta) = 0$ où $\theta$ est une inconnue réelle.</enonce>
+		<reponse value="false">Si $\theta$ est solution alors $\sum_{k=1}^n\binom{n}{k}\sin^2(k\theta) = 2^n$.</reponse>
+		<reponse value="false">$\sum_{k=1}^n\binom{n}{k} \cos(2k\theta) = \cos(n\theta) \left(\frac{\cos\theta}{2}\right)^n$</reponse>
+		<reponse value="false">L'ensemble des solutions est $\left\{\frac{\pi}{n}+\frac{k\pi}{n}, k \in \mathbb{Z}\right\} \cup \left\{\frac{\pi}{2}+k\pi, k \in \mathbb{Z}\right\}$.</reponse>
+		<reponse value="false">Il n'y a pas de solution à cette équation.</reponse>
+	</exo>
+	<exo>
+		<theme>Nombres complexes</theme>
+		<niveau>Première année</niveau>
+		<enonce>On considère l'application $f$ qui à tout complexe $z \neq i$ associe $f(z) = \frac{z+i}{z-i}$.
+		&lt;br/&gt;
+		On note $\mathbb{U} = \{z \in \dC, |z| = 1\}$ et $i\dR = \{z \in \dC, \re(z) = 0\}$.</enonce>
+		<reponse value="false">$f$ est une bijection de $\dC\setminus\{i\}$ dans $\dC$.</reponse>
+		<reponse value="false">$f(\dR) = \mathbb{U}$.</reponse>
+		<reponse value="false">$f(\mathbb{U}) = i\dR \setminus \{i\}$.</reponse>
+		<reponse value="false">$f(i\dR)=i\dR$.</reponse>
+	</exo>
+	<exo>
+		<theme>Nombres complexes</theme>
+		<niveau>Première année</niveau>
+		<enonce>On cherche le lieu des points d'affixe $z$ tels que $z$, $z^2$ et $z^5$ soient les affixes de trois points alignés.
+		&lt;br/&gt;
+		On note $H$ cet ensemble de points et $H_{c}$ l'ensemble de leurs affixes.</enonce>
+		<reponse value="false">$z \in H_{c}$ si et seulement si $z$ est réel ou $z^{3}+z^{2}+z$ est imaginaire pur.</reponse>
+		<reponse value="false">$\im(z^3+z^2+z) = 3 \re(z)^2 - \im(z)^2 + 2 \re(z) +1$.</reponse>
+		<reponse value="false">$H$ est une hyperbole équilatère centrée en $\left(-\frac{1}{3}, 0\right)$ de grand axe parallèle à l'axe des imaginaires purs, de demi grand axe $\sqrt{\frac{2}{3}}$.</reponse>
+		<reponse value="true">$H$ contient une hyperbole centrée en $\left(-\frac{1}{3}, 0\right)$ de grand axe parallèle à l'axe des imaginaires purs, de demi grand axe $\sqrt{\frac{2}{3}}$ et dont les asymptotes ont comme coefficients directeurs $\sqrt{3}$ et $-\sqrt{3}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Suites numériques</theme>
+		<niveau>Première année</niveau>
+		<enonce>On considère les suites $(u_n)_{n \geq 2}$ et $(v_n)_{n \geq 2}$ définies par :
+		\[\forall n \geq 2, \qquad u_n = \prod_{k=2}^n\cos\frac{\pi}{2^k}, \qquad v_n = u_n \sin\frac{\pi}{2^n}\]</enonce>
+		<reponse value="false">$(u_n)_{n \geq 2}$ est croissante et majorée par $1$. Elle converge donc.</reponse>
+		<reponse value="true">$(v_n)_{n \geq 2}$ est une suite géométrique de raison $\frac{1}{2}$.</reponse>
+		<reponse value="false">$(u_n)_{n \geq 2}$ et $(v_n)_{n \geq 2}$ sont adjacentes.</reponse>
+		<reponse value="false">$(u_n)_{n \geq 2}$ converge vers $\frac{1}{2}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions numériques</theme>
+		<niveau>Première année</niveau>
+		<enonce>On suppose que $f$ est une fonction continue sur $\dR$ admettant une limite finie $\ell$ en $+\infty$ et $a$ est un réel strictement positif.</enonce>
+		<reponse value="true">$\forall y \in \dR$, $x \mapsto \int_0^xf(t)\,dt$ est continue sur $[y,y+a]$ et dérivable sur $]y,y+a[$.</reponse>
+		<reponse value="true">$\lim_{y\to+\infty}\int_y^{y+a}f(t)\,dt = a\ell$.</reponse>
+		<reponse value="false">$\lim_{X\to+\infty}\int_0^X\left(f(t+a)-f(t)\right)\,dt = \int_0^af(t)\,dt + a \ell$.</reponse>
+		<reponse value="false">$\lim_{X\to+\infty}\int_0^X\left(\arctan(t+1) - \arctan(t)\right)\,dt = \frac{1}{2} \ln{2} - \frac{\pi}{4}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions numériques</theme>
+		<niveau>Première année</niveau>
+		<enonce>On cherche à comparer $e^x$ avec son développement limité.</enonce>
+		<reponse value="true">$\forall x \in \dR_+, \forall n \in \dN, e^x \leq \sum_{k=0}^n\frac{x^k}{k!}$</reponse>
+		<reponse value="true">$\forall x \in \dR, \forall n \in \dN, e^x \geq \sum_{k=0}^{2n+1}\frac{x^k}{k!}$</reponse>
+		<reponse value="false">$\forall x \in \dR, \forall n \in \dN, e^x \geq \sum_{k=0}^{2n}{\frac{x^{k}}{k!}}$</reponse>
+		<reponse value="true">$\forall x \in \dR_-, \forall n \in \dN, e^x \leq \sum_{k=0}^{2n}\frac{x^k}{k!}$</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions numériques</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $a$ et $b$ deux fonctions réelles à valeurs strictement positives et $\alpha \in \dR$ tels que $a\;\mathop{\sim}_\alpha\;b$.</enonce>
+		<reponse value="true">Il existe une fonction $\varepsilon$ définie sur un voisinage de $\alpha$ avec $\lim\limits_\alpha\varepsilon = 0$ et $\ln\circ\; a = \ln\circ\; b + \ln\circ\;(1+\varepsilon)$.</reponse>
+		<reponse value="false">$\ln\circ\; a\;\mathop{\sim}_\alpha\;\ln\circ\; b$.</reponse>
+		<reponse value="false">$\ln{\left(1+\frac{x}{2}+\sin^{2}{x}\right)} \mathop{\sim}_{x\to0}\ln(1+x)$ car $1+\frac{x}{2}+\sin^{2}{x} \mathop{\sim}_{x\to0}1+x$</reponse>
+		<reponse value="false">$\ln|\sin x| \mathop{\sim}_{x\to0}\ln|x|$ car $|\sin x| \mathop{\sim}_{x\to0}|x|$ et $|x| \neq 1$ sur un voisinage de $0$.</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions numériques</theme>
+		<niveau>Première année</niveau>
+		<enonce>Quelques limites en utilisant des équivalents :</enonce>
+		<reponse value="false">Pour $\beta \neq 0$ et $\alpha$ réels, $\lim\limits_{x\to0}\frac{\ln(\cos \alpha x)}{\ln(\cos\beta x)} = -\frac{\alpha^2}{\beta^2}$.</reponse>
+		<reponse value="true">Pour $\beta \neq 0$ et $\alpha$ réels, $\lim\limits_{x\to0}\frac{\ln(\cos \alpha x)}{\ln(\cos\beta x)} = \frac{\alpha^2}{\beta^2}$.</reponse>
+		<reponse value="true">$\lim\limits_{x\to\frac{\pi}{6}}\left(\tan\frac{3x}{2}\right)^{\tan(3x)} = e^{-1}$.</reponse>
+		<reponse value="false">$\lim\limits_{x\to\frac{\pi}{6}}\left(\tan\frac{3x}{2}\right)^{\tan(3x)} = e$.</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions numériques</theme>
+		<niveau>Première année</niveau>
+		<enonce>On pose $f(x)=e^\frac{x-1}{x^2}$ si $x\neq0$ et $f(0)=0$.</enonce>
+		<reponse value="false">$f$ est continue sur $\dR$, dérivable sur $\dR^*$, non dérivable en $0$.</reponse>
+		<reponse value="true">$\forall x \in \dR^*$, $f'(x) = \frac{2-x}{x^3} e^\frac{x-1}{x^2}$.</reponse>
+		<reponse value="false">Sur $[1,+\infty[$, $f$ ne possède qu'un extremum en $2$, puisque $f'(x) = 0 \iff x = 2$.</reponse>
+		<reponse value="false">$f(x)=x$ admet deux et seulement deux solutions sur $\dR$ car la droite d'équation $y=x$ est tangente à la courbe représentative de $f$</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions numériques</theme>
+		<niveau>Première année</niveau>
+		<enonce>On pose $f(x)=e^\frac{1}{x}\sqrt{x(x+2)}$ pour tout $x\in\dR$.</enonce>
+		<reponse value="false">Aux voisinages de $+\infty$ et $-\infty$ on a $\sqrt{x(x+2)} = x \left(1+\frac{1}{x} - \frac{1}{2x^2} + \mathop{o}\left(\frac{1}{x^2}\right)\right)$.</reponse>
+		<reponse value="true">En $+\infty$, la courbe représentative de $f$ admet la droite d'équation $y = x+2$ comme asymptote.</reponse>
+		<reponse value="false">En $-\infty$, la courbe représentative de $f$ admet la droite d'équation $y = x+2$ comme asymptote.</reponse>
+		<reponse value="false">En $-\infty$, la courbe représentative de $f$ admet la droite d'équation $y = x+2$ comme asymptote et la courbe est au-dessus de son asymptote</reponse>
+	</exo>
+	<exo>
+		<theme>Intégration</theme>
+		<niveau>Première année</niveau>
+		<enonce>Si $f$ est une fonction continue sur un segment $[a,b]$, alors</enonce>
+		<reponse value="false">$\lim\limits_{n\to+\infty}\frac{1}{n} \sum_{k=1}^nf\left(a+k\frac{b-a}{n}\right) = \int_a^bf(t)\,dt$.</reponse>
+		<reponse value="false">$\lim\limits_{n\to+\infty}\frac{1}{n} \sum_{k=0}^{n-1}f\left(a+k\frac{b-a}{n}\right) = \int_a^bf(t)\,dt$.</reponse>
+		<reponse value="false">$\sqrt[n]{\prod_{k=1}^n(n+k)} = n e^{\sum_{k=1}^n\ln\left(1+\frac{k}{n}\right)}$.</reponse>
+		<reponse value="false">$\sqrt[n]{\prod_{k=1}^n(n+k)} \mathop{\sim}_{+\infty}\frac{n}{e}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Intégration</theme>
+		<niveau>Première année</niveau>
+		<enonce>On pose $f(x)=\int_0^x3^{-[t]}\,dt$	où $[t]$ note la partie entière du réel $t$.</enonce>
+		<reponse value="true">$f$ est définie sur $\dR$.</reponse>
+		<reponse value="true">$\forall n \in \dN, f(n) = 3 \frac{1-3^{-n}}{2}$.</reponse>
+		<reponse value="false">Pour montrer que $f$ admet une limite en $+\infty$, il est suffisant de montrer que $(f(n))_{n\in\dN}$ converge.</reponse>
+		<reponse value="false">$f$ est croissante sur $\dR_+$ et majorée par $\frac{1}{e\ln{3}}$ donc elle admet une limite finie qui est la même que la limite de $(f(n))_{n\in\dN}$, à savoir $\frac{3}{2}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Equations différentielles</theme>
+		<niveau>Première année</niveau>
+		<enonce>On cherche à déterminer les fonctions $g$ de classe $\mathcal{C}^1$ sur $\dR^*_+$ et vérifiant
+		\[(P)\qquad\forall x &gt; 0, g'(x) = g\left(\frac{1}{x}\right)\]</enonce>
+		<reponse value="false">Si $g$ vérifie $(P)$ alors $g$ est de classe $\mathcal{C}^2$ sur $\dR^*_+$ et $x^2g''(x)=g(x)$ pour tout $x\in\dR^*_+$.</reponse>
+		<reponse value="true">Si $g$ vérifie $(P)$ et si on pose $h(t)=g(e^t)$ pour $t\in\dR$, alors $h'' - h' + h = 0$.</reponse>
+		<reponse value="false">Les fonctions $g : x \mapsto \sqrt{x} \left [A \cos\left(\sqrt3\ln x\right) + B \sin\left(\sqrt3\ln x\right)\right ]$ où $(A, B) \in \dR^2$ vérifient $(P)$.</reponse>
+		<reponse value="true">Comme l'équation différentielle $h''-h'+h=0$ est du second ordre et homogène, l'ensemble des solutions forme un espace vectoriel de dimension 2.</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions de plusieurs variables</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $c\in\dR^*_+$. On cherche à résoudre l'équation aux dérivées partielles $(E)$ : $c^{2} \frac{\partial^2f}{\partial x^2} - \frac{\partial^2f}{\partial y^2} = 0$ où $f$ est une fonction de $\dR^2$ à valeurs réelles admettant des dérivées partielles secondes.
+		&lt;br/&gt;
+		On posera $u(x, y) = x + cy$ et $v(x, y) = x-cy$.
+		&lt;br/&gt;
+		On notera $g(u, v) = f\left(x(u, v), y(u, v)\right)$.</enonce>
+		<reponse value="false">$\frac{\partial g}{\partial u} = \frac{\partial f}{\partial x} + c\frac{\partial f}{\partial y}$.</reponse>
+		<reponse value="false">$\frac{\partial g}{\partial u} = \frac{1}{2}\frac{\partial f}{\partial x} - \frac{1}{2c} \frac{\partial f}{\partial y}$.</reponse>
+		<reponse value="false">$\frac{\partial^2g}{\partial u \partial v} = \frac{1}{4c^{2}} \left [c^{2} \frac{\partial^2f}{\partial x^2} - \frac{\partial^2f}{\partial y^2}\right ]$.</reponse>
+		<reponse value="true">$(x, y) \mapsto e^x \cosh(cy) + 2$ est une solution de $(E)$.</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions de plusieurs variables</theme>
+		<niveau>Première année</niveau>
+		<enonce>On considère le domaine $D = \{(x, y) \in \dR^2, x \geq 0, y \geq 0, x^2+y^2 \leq 1 \text{ et } x^2+y^2-2y &gt; 0\}$ dont on veut calculer l'aire $A_{D}$.
+		&lt;br/&gt;
+		On note $\varphi : \dR_+\times]-\pi,\pi] \to \dR^2, (\rho, \theta) \mapsto (\rho \cos\theta,\rho \sin\theta)$.</enonce>
+		<reponse value="false">$\varphi^{-1}(D) = \{(\rho, \theta) \in \dR^2, 0 \leq \theta \leq \frac{\pi}{6}, 2 \sin\theta &lt; \rho \leq 1\}$.</reponse>
+		<reponse value="true">$\varphi^{-1}(D) = \{(\rho, \theta) \in \dR^2, 0 \leq \theta \leq \frac{\pi}{6}, 2 \sin{\theta} \leq \rho \leq 1\}$.</reponse>
+		<reponse value="false">$A_{D} = \int_0^\frac{\pi}{6}\left(\int_{2\sin\theta}^1d\rho\right)\,d\theta = \frac{\pi}{6} + 1-\sqrt{3}$.</reponse>
+		<reponse value="false">$A_{D} = \int_0^\frac{\pi}{3}\left(\int_{2\sin\theta}^1\rho\,d\rho\right)\,d\theta = \frac{\sqrt3}{4}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Arithmétique</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $n$ et $p$ deux entiers naturels non nuls et $x$ un entier relatif non nul et non égal à $1$.
+		&lt;br/&gt;
+		On note $U$ l'ensemble des entiers relatifs $x$ tels que $\forall n \geq 2$, $6$ divise $x^n-x$.</enonce>
+		<reponse value="true">$\forall n \geq 1, x^n-1$ et $x$ sont premiers entre eux.</reponse>
+		<reponse value="false">$\forall n \geq 2$, $p$ divise $x^2-x$ si seulement si $p$ divise $x^n-x$.</reponse>
+		<reponse value="false">$U\subsetneq\{6k, k \in \mathbb{Z}\} \cup \{1+6k, k \in \mathbb{Z}\}$.</reponse>
+		<reponse value="false">$U=\{6k, k \in \mathbb{Z}\} \cup \{1+6k, k \in \mathbb{Z}\}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre générale</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $E$ un ensemble à $n$ éléments ($n \in \dN^*$). $X,Y,Z$ désignent des parties de $E$.</enonce>
+		<reponse value="true">Le nombre de couples $(X, Y)$ tels que $X \cap Y = \emptyset$ est $3^n$.</reponse>
+		<reponse value="true">Le nombre de couples $(X, Y)$ tels que $X \cup Y = E$ est $3^n$.</reponse>
+		<reponse value="false">Le nombre de couples $(X, Y)$ tels que $(X, Y)$ forment une partition de $E$ est $3^n$.</reponse>
+		<reponse value="false">Le nombre de triplets $(X, Y, Z)$ tels que $X \cup Y = Z$ est $3^n$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre générale</theme>
+		<niveau>Première année</niveau>
+		<enonce>A propos des structures.</enonce>
+		<reponse value="false">L'ensemble des polynômes de degrés égaux à $n$ ($n\geq1$) pour l'addition usuelle des polynômes est un groupe.</reponse>
+		<reponse value="false">L'ensemble des matrices carrés de taille $n$ ($n\geq2$) pour l'addition et la multiplication usuelles des matrices est un corps.</reponse>
+		<reponse value="false">L'ensemble des suites convergeant vers $0$ pour la multiplication usuelle des suites est un groupe.</reponse>
+		<reponse value="true">Si $G$ est un groupe pour une loi $T$ donnée et $a \in G$, l'ensemble $aG = \{aTx, x \in G\}$ est un groupe pour $T$.</reponse>
+	</exo>
+	<exo>
+		<theme>Polynômes</theme>
+		<niveau>Première année</niveau>
+		<enonce>On considère $P$ un polynôme non nul tel que $P(X^2) - P(X+1) P(X) = 0$.</enonce>
+		<reponse value="true">Le coefficient dominant de $P$ est $1$.</reponse>
+		<reponse value="true">Si $a$ est une racine de $P$, $\forall n \in \dN$, $a^{2^n}$ est encore une racine de $P$.</reponse>
+		<reponse value="true">Si $a$ est une racine de $P$, il existe $p$ tel que $a = a^p$</reponse>
+		<reponse value="false">Les racines de $P$ sont des racines de l'unité.</reponse>
+	</exo>
+	<exo>
+		<theme>Polynômes</theme>
+		<theme>Arithmétique</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $P = \sum_{k=0}^na_k X^k$ avec $a_k \in \mathbb{Z}$ pour $0\leq k\leq n$.</enonce>
+		<reponse value="true">Si $(p,q)\in\mathbb{Z}\times\mathbb{Z}^*$ sont premiers entre eux et tels que $\frac{p}{q}$ est racine de $P$ alors $p$ divise $a_0$ et $q$ divise $a_n$.</reponse>
+		<reponse value="false">Si $2X^3-X^2-13X+5$ admet une racine rationnelle, c'est nécessairement $1$, $5$, $\frac{1}{2}$ ou $\frac{5}{2}$.</reponse>
+		<reponse value="false">$2X^4+X^2+5X+5$ admet une racine rationnelle.</reponse>
+		<reponse value="true">Si $a_n=1$, alors toute racine rationnelle de $P$ est nécessairement entière.</reponse>
+	</exo>
+	<exo>
+		<theme>Polynômes</theme>
+		<niveau>Première année</niveau>
+		<enonce>Les polynômes de Tchebychev $(T_n)_{n\in\dN}$ vérifient :</enonce>
+		<reponse value="false">$\cos n\theta = \re\left(e^{i\theta}\right)^n = \sum_{0\leq2k\leq n}\binom{n}{2k}(\cos\theta)^{n-2k} (1-\cos^2\theta)^{2k}$, $\forall \theta \in \dR$ donc $T_n$ existe pour tout $n\in\dN$ et peut être choisi à coefficients entiers.</reponse>
+		<reponse value="true">Si $T_n$ et $\tilde{T}_n$ sont deux polynômes de Tchebychev alors ils sont égaux car $\forall x \in [-1,1]$, $T_n(x) = \tilde{T}_{n}(x)$.</reponse>
+		<reponse value="false">$\forall n \in \dN^*, T_{n+1} = 2T_n-X^2T_{n-1}$ puisque $\cos(n+1)\theta = 2 \cos n\theta - \cos^2\theta \cos(n-1)\theta$.</reponse>
+		<reponse value="false">$T_n$ a pour coefficient dominant $1$.</reponse>
+	</exo>
+	<exo>
+		<theme>Polynômes</theme>
+		<niveau>Première année</niveau>
+		<enonce>Pour $n\in\dN$, on pose $P_n = \sum_{k=0}^n\frac{X^k}{k!}$.</enonce>
+		<reponse value="false">$\forall n \in \dN \setminus \{0, 1, 2\}$, $P_n$ possède au moins une racine multiple car $P'_n = P_{n-1}$.</reponse>
+		<reponse value="true">$\forall n \in \dN$, $P_n$ est l'unique polynôme vérifiant $P_{n}-P'_{n} = \frac{X^n}{n!}$.</reponse>
+		<reponse value="false">$\forall n \in \dN$, $nX^{n+2}-(n+2)X^{n+1}+(n+2)X-n$ admet $1$ comme racine double.</reponse>
+		<reponse value="true">Si $m$ est divisible par $n$ alors $\forall a \in \dC, X^m-a^m$ est divisible par $X^n-a^n$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $n\in\dN$.</enonce>
+		<reponse value="true">La famille $(x\mapsto1,x\mapsto\cos x,\dots x\mapsto\cos nx)$ est libre dans $\dR^\dR$.</reponse>
+		<reponse value="false">La famille $(x\mapsto1,x\mapsto\cos x,\dots x\mapsto\cos^nx)$ est libre dans $\dR^\dR$.</reponse>
+		<reponse value="true">La famille $(\cosh,\sinh)$ est liée dans $\dR^\dR$.</reponse>
+		<reponse value="true">La famille $\left(x\mapsto1, x\mapsto\arctan x, x\mapsto\arctan\frac{1}{x}\right)$ est libre dans $\dR^{\dR^*}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $F$ et $G$ deux sous-espaces vectoriels d'un espace vectoriel $E$.</enonce>
+		<reponse value="true">S'il existe $x \in F\setminus G$, alors pour tout $g\in G$, $F \cup G$ sous-espace vectoriel de $E$ si et seulement si $x+g \in F$.</reponse>
+		<reponse value="false">Si $F\not\subset G$, $F \cup G$ ne peut être un sous-espace vectoriel de $E$.</reponse>
+		<reponse value="false">$F \cup G$ ne peut être un sous-espace vectoriel de $E$ que si $F \subset G$.</reponse>
+		<reponse value="true">Si $F \subset G$ alors $F \cup G$ sous-espace vectoriel de $E$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $H$ et $K$ deux sous-espaces vectoriels supplémentaires d'un espace vectoriel $E$ de dimension finie.
+		&lt;br/&gt;
+		Soit $(e_{1}, \dots, e_{k})$ une base de $K$ et $a \in H$.</enonce>
+		<reponse value="false">$\dim\left(\vect(e_1+a, \dots, e_k+a)\right) &lt; k$.</reponse>
+		<reponse value="true">$\vect(e_1+a, \dots, e_k+a)$ est un supplémentaire de $H$ dans $E$.</reponse>
+		<reponse value="false">$\vect(e_1+a, \dots, e_k+a)=K$.</reponse>
+		<reponse value="false">On peut montrer ici que tout sous-espace vectoriel d'un espace vectoriel de dimension finie admet au moins deux supplémentaires.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $E$ est un espace vectoriel de dimension finie et $f\in\mathcal{L}(E)$.
+		&lt;br/&gt;
+		Les conditions suivantes sont équivalentes à $\Ker f \oplus \Im f = E$.</enonce>
+		<reponse value="false">$\Ker f \subset \Ker f^2$.</reponse>
+		<reponse value="true">$\Im f \subset \Im f^2$.</reponse>
+		<reponse value="true">$\Ker f \cap \Im f = \{0\}$.</reponse>
+		<reponse value="false">$f$ est un projecteur.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $E$ est un espace vectoriel de dimension $n\geq1$ et $f\in\mathcal{L}(E)$.
+		&lt;br/&gt;
+		On suppose que $f^n=0$.</enonce>
+		<reponse value="false">$\forall x \in E$, $(x, f(x), f^2(x), \dots, f^{n-1}(x))$ est libre.</reponse>
+		<reponse value="true">$f$ ne peut être surjectif.</reponse>
+		<reponse value="true">Si $f^{n-1}(x)\neq0$, alors $\Ker f=\vect(f^{n-1}(x))$.</reponse>
+		<reponse value="false">Si $f^{n-1}(x)\neq0$, alors $\Im f=\vect(x,f(x),f^2(x),\dots,f^{n-1}(x))$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $M, N \in \cM_n(\dR)$ telles que $\forall (i, j) \in \dN^2$, $M_{i,j} = 1$, $N_{i,i} = 3$, $N_{i,j} = 1$ si $i \neq j$.
+        &lt;br/&gt;
+        On note $I_n$ la matrice identité de $\cM_n(\dR)$.
+    </enonce>
+		<reponse value="false">$\dim(\Ker M) = n^2-1$ et $M$ est inversible si et seulement si $n=1$.</reponse>
+		<reponse value="true">$M^p = n^{p-1}M$, $\forall p \in \dN^*$.</reponse>
+		<reponse value="false">$N^p = n^{p-1} 2^p M$, $\forall p \in \dN^*$.</reponse>
+		<reponse value="true">$\forall p\in\dN$, $N^p\in\vect(I_n,M)$.</reponse>
+	</exo>
+	<exo>
+		<theme>Polynômes</theme>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $n \in \dN$. On se place dans $\dR_n[X]$.</enonce>
+		<reponse value="false">$\dim\dR_n[X] = n$.</reponse>
+		<reponse value="true">$\forall a \in \dR$, $\cB_a = \left(1, X-a, (X-a)^2, \dots, (X-a)^n\right)$ est une base de $\dR_n[X]$ et d'ailleurs $\cB_0$ en est la base canonique.</reponse>
+		<reponse value="false">La matrice de passage de $\cB_a$ à $\cB_0$ est la matrice $\left(a^{k-p} \binom{k}{p}\right)_{1\leq k,p\leq n}$.</reponse>
+		<reponse value="false">La matrice de passage de $\cB_0$ à $\cB_a$ est la matrice $\left(a^{k-p} \binom{k}{p}\right)_{1\leq k,p\leq n}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre générale</theme>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $f : \cM_n(\dR) \rightarrow \dR$ et vérifiant $\forall (A,B) \in (M_{n}(\dR))^{2}$, $f(AB) = f(A)f(B)$.
+    &lt;br/&gt;
+    On note $O_n$ la matrice nulle et $I_n$ la matrice identité de $\cM_n(\dR)$.</enonce>
+		<reponse value="false">$f$ est un morphisme de groupe pour $M_{n}(\dR)$ muni de la multiplication usuelle des matrices.</reponse>
+		<reponse value="false">Nécessairement $f(O_n) = 0$ et $f(I_n) = 1$.</reponse>
+		<reponse value="true">S'il existe $p\in \dN$ tel que $A^p=0$ alors $f(A) = 0$.</reponse>
+		<reponse value="false">$A\in\cM_n(\dR)$ est inversible si et seulement si $f(A)\neq0$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre bilinéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $E$ un espace vectoriel euclidien, $u$ un vecteur normé fixé de $E$ et $a$ un scalaire.
+    &lt;br/&gt;
+    On définit $f_a$ par : $\forall x \in E$, $f(x) = x + a \langle x,u\rangle u$.</enonce>
+		<reponse value="true">$f_a$ est un automorphisme orthogonal si et seulement si $a = -2$.</reponse>
+		<reponse value="false">$f_2$ est un automorphisme orthogonal.</reponse>
+		<reponse value="true">$f_{-2}$ est la symétrie orthogonale par rapport à l'hyperplan vectoriel orthogonal à $u$.</reponse>
+		<reponse value="false">$f_2$ est la symétrie orthogonale par rapport à la droite vectorielle engendrée par $u$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre bilinéaire</theme>
+		<theme>Géométrie</theme>
+		<niveau>Première année</niveau>
+		<enonce>L'espace $\mathbf{E}$ est rapporté à un repère orthonormal $(O, \vec i, \vec j, \vec k)$. L'espace vectoriel associé $E$ est rapporté à la base $(\vec i, \vec j, \vec k)$.
+    &lt;br/&gt;
+    Soit $D$ la droite de $\mathbf{E}$ dont la représentation paramétrique est donnée par : $\syst{x&amp;=1+t\\y&amp;=1-2t\\z&amp;=1+t}$.
+    &lt;br/&gt; </enonce>
+		<reponse value="false">Les coordonnées du point symétrique de $M(a,b,c)$ par rapport à $D$ sont $\left(1+\frac{a-2b+c}{6}, 1-\frac{a-2b+c}{3}, 1+\frac{a-2b+c}{6}\right)$.</reponse>
+		<reponse value="false">Les coordonnées du point symétrique de $M(a,b,c)$ par rapport à $D$ sont $\left(\frac{6-2a-2b+c}{3}, \frac{6-2a+b-2c}{3}, \frac{6-2a-2b+c}{3}\right)$.</reponse>
+		<reponse value="false">La droite symétrique par rapport à $D$ de l'axe $(z'Oz)$ a pour représentation paramétrique : $\syst{x&amp;=2+t\\y&amp;=2-2t\\z&amp;=2-t}$.</reponse>
+		<reponse value="true">La droite symétrique par rapport à $D$ de l'axe $(z'Oz)$ a pour équations cartésiennes : $\syst{6-2x-y&amp;=0\\y&amp;=z}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Nombres complexes</theme>
+		<niveau>Première année</niveau>
+		<enonce>On désigne par $j$ le nombre complexe $e^\frac{2i\pi}{3}$. Soient $a,b,c\in\dR$. Le système $\syst{x+y+z&amp;a\\x+jy+j^2z&amp;=b\\x+j^2y+jz&amp;=c}$</enonce>
+		<reponse value="false">n'admet pas de solution.</reponse>
+		<reponse value="false">admet au moins deux solutions.</reponse>
+		<reponse value="false">une solution unique $x=\frac{a+b+c}{3}$, $y=\frac{a+j^2b+jc}{3}$, $z=\frac{a+jb+j^2c}{3}$.</reponse>
+		<reponse value="true">une solution unique $x=\frac{a+b+c}{3}$, $y=\frac{a+jb+j^2c}{3}$, $z=\frac{a+j^2b+jc}{3}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Suites et séries de fonctions</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Parmi les affirmations suivantes, lesquelles sont vraies ?</enonce>
+		<reponse value="true">Toute fonction $2\pi$-périodique de classe $\cC^1$ est la somme de sa série de Fourier.</reponse>
+		<reponse value="false">Toute fonction $2\pi$-périodique et continue est la somme de sa série de Fourier.</reponse>
+		<reponse value="false">Toute fonction $2\pi$-périodique de classe $\cC^1$ par morceaux est la somme de sa série de Fourier.</reponse>
+		<reponse value="false">Toute fonction $2\pi$-périodique est la somme de sa série de Fourier.</reponse>
+	</exo>
+	<exo>
+		<theme>Suites et séries de fonctions</theme>
+		<theme>Fonctions numériques</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Soit $f$ la fonction définie par $f(x)=\exp\left(-\frac{1}{x^2}\right)$ pour $x\neq0$ et $f(0)=0$.</enonce>
+		<reponse value="false">La fonction $f$ est développable en série entière en $0$ car elle est de classe $\cC^\infty$ sur $\dR$.</reponse>
+		<reponse value="false">Pour tout $n\in\dN$, il existe un polynôme $P_n$ tel que $f(x)=P_n(x)\exp\left(-\frac{1}{x^2}\right)$ pour tout $x\in\dR$.</reponse>
+		<reponse value="true">$f$ est de classe $\cC^\infty$ et pour tout $n\in\dN$, $f^{(n)}(0)=0$.</reponse>
+		<reponse value="true">$f$ est de classe $\cC^\infty$ et le rayon de convergence de la série entière $\sum_{n=0}^{+\infty}\frac{f^{(n)}(0)}{n!}x^n$ est infini.</reponse>
+	</exo>
+	<exo>
+		<theme>Suites et séries de fonctions</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Soit $\la&gt;0$. On note $f$ la fonction $2\pi$-périodique définie par $f(x)=\cos(\la x)$ pour $x\in]-\pi,\pi]$.
+    &lt;br/&gt;
+    On note $S_n(f)$ la somme partielle de rang $n$ de la série de Fourier de $f$.</enonce>
+		<reponse value="false">Lorsque $\la$ est entier, $(S_n(f)(x))$ converge vers $0$ pour tout $x\in\dR$.</reponse>
+		<reponse value="true">Lorsque $\la$ est entier, $(S_n(f)(x))$ converge vers $f(x)$ pour tout $x\in\dR$.</reponse>
+		<reponse value="false">Lorsque $\la$ est réel non entier, $(S_n(f)(x))$ ne converge pas pour tout $x\in\dR$ car $f$ n'est pas continue sur $\dR$.</reponse>
+		<reponse value="true">Lorsque $\la$ est réel non entier, $(S_n(f)(x))$ converge pour tout $x\in\dR$ car $f$ satisfait les hypothèses du théorème de Dirichlet.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>On pose $A=\begin{pmatrix}2 &amp; 3 &amp; 1\\2 &amp; 3 &amp; 1\\1 &amp; 1 &amp; 0\end{pmatrix}$ et $B=\begin{pmatrix}1 &amp; 0 &amp; 1\\1 &amp; 2 &amp; 3\\1 &amp; 4 &amp; 5\end{pmatrix}$.</enonce>
+		<reponse value="true">Les matrices $A$ et $B$ sont équivalentes.</reponse>
+		<reponse value="false">Les matrices $A$ et $B$ sont semblables.</reponse>
+		<reponse value="true">Les matrices $A$ et $B$ sont diagonalisables.</reponse>
+		<reponse value="false">Il existe une matrice $P$ orthogonale de taille $3$ telle que $A=\trans PBP$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre bilinéaire</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Soient $E$ un espace euclidien de dimension $n\geq2$, $a$ un vecteur unitaire de $E$ et $\la$ un réel.
+        &lt;br/&gt;
+        On définit une forme quadratique $Q$ par $Q(x)=2\langle x,a\rangle^2+\la\|x\|^2$ pour $x\in E$.</enonce>
+		<reponse value="true">$Q$ est définie si et seulement si $\la&lt;-2$ ou $\la&gt;0$.</reponse>
+		<reponse value="false">$Q$ est positive si et seulement si $\la\geq-2$.</reponse>
+		<reponse value="false">$Q$ est non dégénérée si et seulement si $\la\neq0$.</reponse>
+		<reponse value="false">Le rang de $Q$ est nécessairement $1$ ou $n-1$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre bilinéaire</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>On considère des formes quadratiques sur un $\dR$-espace vectoriel de dimension finie.
+        &lt;br/&gt;
+        Parmi les affirmations suivantes, lesquelles sont vraies ?</enonce>
+		<reponse value="false">Une forme quadratique non dégénérée est définie.</reponse>
+		<reponse value="true">Une forme quadratique définie est soit positive soit négative.</reponse>
+		<reponse value="false">Une forme quadratique est positive si et seulement si le déterminant de sa matrice dans une base quelconque est positif.</reponse>
+		<reponse value="true">Une forme quadratique définie est négative si et seulement si la trace de sa matrice dans une base quelconque est négative.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre bilinéaire</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Soit $F$ le plan vectoriel de $\dR^3$ d'équation $x+y+z=0$.
+        &lt;br/&gt;
+        On munit $\dR^3$ du produit scalaire usuel.
+        &lt;br/&gt;
+        On note $p$ la projection orthogonale sur $F$ et $s$ la symétrie orthogonale par rapport à $F$.</enonce>
+		<reponse value="false">Il existe une base orthonormale de $\dR^3$ dans laquelle $s$ admet pour matrice $\begin{pmatrix}1&amp;0&amp;0\\0&amp;-1&amp;0\\0&amp;0&amp;-1\end{pmatrix}$.</reponse>
+		<reponse value="true">$p$ est un endomorphisme symétrique.</reponse>
+		<reponse value="true">$s$ est un automorphisme orthogonal.</reponse>
+		<reponse value="false">La matrice de $p$ dans la base canonique est $\frac{1}{\sqrt3}\begin{pmatrix}2&amp;-1&amp;-1\\-1&amp;2&amp;-1\\-1&amp;-1&amp;2\end{pmatrix}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Arithmétique</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $(a,b)\in\dZ^2$ et $(\cS)$ le système $\syst{x&amp;\equiv a[10]\\x&amp;\equiv b[8]}$ d'inconnue $x\in\dZ$.</enonce>
+		<reponse value="false">Le système $(\cS)$ admet toujours une solution.</reponse>
+		<reponse value="true">Si $a-b$ est pair, le système admet une infinité de solutions.</reponse>
+		<reponse value="false">Si $x$ et $x'$ sont solutions de $(\cS)$, alors $x\equiv x'[80]$.</reponse>
+		<reponse value="false">$10a+8b$ est solution de $(\cS)$.</reponse>
+	</exo>
+	<exo>
+		<theme>Séries numériques</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Les séries suivantes convergent-elles ?</enonce>
+		<reponse value="true">$\sum_{n\geq1}\frac{(-1)^n}{\sqrt n}$</reponse>
+		<reponse value="false">$\sum_{n\geq1}\frac{1}{\sqrt n}$</reponse>
+		<reponse value="false">$\sum_{n\geq1}\frac{(-1)^n}{\sqrt n}\left(1+\frac{(-1)^{n^2}}{\sqrt n}\right)$</reponse>
+		<reponse value="true">$\sum_{n\geq0}(-1)^n\frac{n^2+n+1}{n^3+n^2+n+1}$</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $n\in\dN^*$. On note $H_n$ l'ensemble des matrices de $\cM_n(\dR)$ dont les sommes des coefficients par ligne et par colonne sont égales entre elles.</enonce>
+		<reponse value="false">$H_n$ est un sous-espace vectoriel de $\cM_n(\dR)$ de dimension $(n-1)^2$.</reponse>
+		<reponse value="true">$H_n$ est un sous-anneau de $\cM_n(\dR)$.</reponse>
+		<reponse value="true">Si $M\in H_n$ est inversible, alors $M^{-1}\in H_n$.</reponse>
+		<reponse value="false">$H_n$ est un sous-espace vectoriel de $\cM_n(\dR)$ de dimension $n^2-n+1$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre bilinéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $A$ et $B$ les matrices d'un même endomorphisme d'un espace euclidien $E$ dans deux bases orthonormales.</enonce>
+		<reponse value="true">$\tr(\trans AA)=\tr(\trans BB)$</reponse>
+		<reponse value="false">$A$ et $B$ sont des matrices orthogonales.</reponse>
+		<reponse value="true">$A$ et $B$ sont semblables.</reponse>
+		<reponse value="true">$A$ est symétrique si et seulement si $B$ l'est.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre bilinéaire</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Soit $\cC$ la courbe d'équation $x^2+4xy+2y^2-6x+4y-5=0$ dans un repère orthonormé.</enonce>
+		<reponse value="false">$\cC$ est vide.</reponse>
+		<reponse value="true">$\cC$ est une hyperbole.</reponse>
+		<reponse value="false">Les demi-grand axe et demi-petit axe de $\cC$ sont respectivement $\frac{\sqrt{17}+3}{2}$ et $\frac{\sqrt{17}-3}{2}$.</reponse>
+		<reponse value="true">$\cC$ admet deux droites asymptotes faisant un angle de mesure $2\arctan\left(\frac{\sqrt{17}-3}{2\sqrt2}\right)$.</reponse>
+	</exo>
+	<exo>
+		<theme>Géométrie</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $\cC$ la courbe d'équation polaire $\rho=a(1+\cos\te)$.</enonce>
+		<reponse value="false">La longueur de $\cC$ est $4a$.</reponse>
+		<reponse value="true">L'aire du domaine limité par $\cC$ est $\frac{3}{2}\pi a^2$.</reponse>
+		<reponse value="false">La courbure de $\cC$ au point d'angle polaire $\te$ est $\frac{1}{\cos\te}$.</reponse>
+		<reponse value="false">La détermination angulaire de $\cC$ au point d'angle polaire $\te$ est $\frac{3\te-\pi}{2}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soient $E$ un espace vectoriel de dimension finie et $f,g\in\cL(E)$.</enonce>
+		<reponse value="true">$\rg(g\circ f)\leq\max(\rg f,\rg g)$</reponse>
+		<reponse value="false">$\rg(g\circ f)\geq\min(\rg f,\rg g)$</reponse>
+		<reponse value="false">$\rg(f+g)\geq\rg f+\rg g$</reponse>
+		<reponse value="true">$\rg(f+g)\geq|\rg f-\rg g|$</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Soit $A=\begin{pmatrix}0 &amp; \cdots &amp; 0 &amp; n\\
+  \vdots &amp; \iddots &amp; \iddots &amp; 0\\
+  0 &amp; 2 &amp; \iddots &amp; \vdots\\
+  1 &amp; 0 &amp; \cdots &amp; 0\end{pmatrix}$.</enonce>
+		<reponse value="false">$A^2$ est diagonale donc $A$ est diagonalisable</reponse>
+		<reponse value="true">$A$ est diagonalisable car elle possède $n$ valeurs propres distinctes.</reponse>
+		<reponse value="true">Si $n$ est impair, $\frac{n+1}{2}\in\sp(A)$.</reponse>
+		<reponse value="false">Si $\la\in\sp(A)$, alors $-\la\in\sp(A)$.</reponse>
+	</exo>
+	<exo>
+		<theme>Suites et séries de fonctions</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Soit $(a_n)$ la suite définie par $a_0=a_1=a_2=1$ et par la relation de récurrence
+	\[\forall n\geq2\; a_{n+1}=a_n-\frac{a_{n-2}}{2(n+1)}\]
+	On note $f(x)$ la somme de la série entière $\sum_{n\in\dN}a_nx^n$.
+	</enonce>
+		<reponse value="false">Le rayon de convergence de $f$ est infini.</reponse>
+		<reponse value="false">Les suites $(a_n)$ et $(na_n)$ sont décroissantes.</reponse>
+		<reponse value="true">$f$ vérifie l'équation différentielle $(2x-2)y'+(2-x^2)y=0$.</reponse>
+		<reponse value="false">Pour $x$ appartenant à l'intervalle de convergence,
+	$f(x)=\frac{\exp\left(\frac{x(x+2)}{4}\right)}{\sqrt{x-1}}$.</reponse>
+	</exo>
+	<exo>
+		<theme>Equations différentielles</theme>
+		<niveau>Première année</niveau>
+		<enonce>Soit $\la\in\dR^*_+$. On considère l'équation différentielle $(E)\;xy'+\la y=\frac{1}{1+x}$ sur $\dR^*_+$.</enonce>
+		<reponse value="false">Les solutions de l'équation homogène associée à $(E)$ sont les fonctions $x\mapsto Cx^\la$ où $C\in\dR$.</reponse>
+		<reponse value="true">Il existe une unique solution de $(E)$ bornée au voisinage de $0$.</reponse>
+		<reponse value="false">Les solutions de $(E)$ sont toutes bornées au voisinage de $0$.</reponse>
+		<reponse value="false">Aucune solution de $(E)$ n'est bornée au voisinage de $0$.</reponse>
+	</exo>
+	<exo>
+		<theme>Algèbre linéaire</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>Soit $\al\in\dC$ et $A=(\al^{i+j-2})_{1\leq i,j\leq n}$.</enonce>
+		<reponse value="false">$A$ est symétrique donc diagonalisable.</reponse>
+		<reponse value="true">Le rang de $A$ est $1$.</reponse>
+		<reponse value="true">Si $\al^{2n}\neq1$, $A$ est diagonalisable.</reponse>
+		<reponse value="true">La trace de $A$ est une valeur propre de $A$.</reponse>
+	</exo>
+	<exo>
+		<theme>Fonctions de plusieurs variables</theme>
+		<niveau>Première année</niveau>
+		<enonce>Pour $(x,y)\in\dR^2$, on pose $f(x,y)=(x-y)^3+6xy$.</enonce>
+		<reponse value="false">$f$ possède un unique point critique.</reponse>
+		<reponse value="false">$f$ admet un extremum global.</reponse>
+		<reponse value="false">$f$ admet deux extrema locaux.</reponse>
+		<reponse value="true">$f$ admet un unique minimum local.</reponse>
+	</exo>
+	<exo>
+		<theme>Suites et séries de fonctions</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>On définit une fonction $f$ $2\pi$-périodique en posant pour tout $x\in\dR$ :
+	\[f(x)=\sum_{n\in\dN}\frac{\sin^3(nx)}{n!}\]
+	On note classiquement $a_n$ et $b_n$ les coefficients réels de la série de Fourier associée à $f$.</enonce>
+		<reponse value="true">$f$ est égale à la somme de sa série de Fourier.</reponse>
+		<reponse value="false">Pour tout $n\in\dN$, $b_n=\frac{1}{4}\left(\frac{3}{(3n)!}-\frac{1}{n!}\right)$.</reponse>
+		<reponse value="true">Pour tout $x\in\dR$,
+	 $f(x)=-\frac{1}{4}e^{\cos3x}\sin(\sin 3x)+\frac{3}{4}e^{\cos x}\sin(\sin x)$.</reponse>
+		<reponse value="true">Pour tout $n\in\dN$, $a_n=0$.</reponse>
+	</exo>
+	<exo>
+		<theme>Suites et séries de fonctions</theme>
+		<niveau>Deuxième année</niveau>
+		<enonce>On s'intéresse à la série entière
+  $f(x)=\sum_{n\in\dN^*}\frac{x^n}{n}\cos\frac{n\pi}{3}$
+  On note $R$ son rayon de convergence.</enonce>
+		<reponse value="true">$R=1$.</reponse>
+		<reponse value="false">Pour $x\in]-R,R[$,
+  $f'(x)=\sum_{n\in\dN}x^n\cos\frac{n\pi}{3}$</reponse>
+		<reponse value="false">Pour $x\in]-R,R[$,
+	$f(x)=\frac{1}{2}\ln(x^2-x+1)$</reponse>
+		<reponse value="false">La suite $\left(\frac{1}{n}\cos\frac{n\pi}{3}\right)_{n\in\dN^*}$ est bornée donc $R\leq1$.</reponse>
+	</exo>
+	<exo>
+		<theme>Suites numériques</theme>
+		<niveau>Première année</niveau>
+		<enonce>On définit une suite réelle $(u_n)$ par ses deux premiers $u_0,u_1\in\dR_+$ et par la relation de récurrence
+  \[\forall n\geq1,\;u_{n+1}=\frac{u_n^2}{1+u_nu_{n-1}}\]</enonce>
+		<reponse value="false">La suite $(u_n)$ est minorée par $1$.</reponse>
+		<reponse value="true">Si $(u_n)$ converge, sa limite est nécessairement nulle.</reponse>
+		<reponse value="false">Il existe des valeurs de $u_0$ et $u_1$ pour lesquelles $(u_n)$ diverge vers $+\infty$.</reponse>
+		<reponse value="true">Il existe $K\in[0,1[$ tel que $u_n=\O(K^{2^n})$</reponse>
+	</exo>
+</qcm>
