@@ -36,6 +36,7 @@
 				<div class="container">
 					<a class="brand" href="#" style="color:red">MathQuiz © Laurent Garcin 2013</a>
 					<div class="pull-right">
+						<a class="btn btn-primary" href="#choiceModal" role="button" data-toggle="modal" data-bind="visible: view()==='results'">Nouveau quiz</a>
 						<a class="btn btn-primary" href="#resultsModal" role="button" data-toggle="modal" data-bind="visible: view()==='question'">Résultats</a>
 						<a class="btn btn-info" href='#instructionsModal' role="button" data-toggle="modal" data-bind="visible: view()==='question'">Instructions</a>
 					</div>
@@ -66,8 +67,8 @@
 						<h4 class="control-label"> Thèmes </h4>
 						<div class="controls controls-row" data-bind="foreach: themes">
 							<label class="span3 checkbox">
-								<input type="checkbox" data-bind="checked: check">
-								<span data-bind="text: theme"></span></label>
+								<input type="checkbox" data-bind="value: $data, checked: $root.selectedThemes">
+								<span data-bind="text: $data"></span></label>
 						</div>
 					</div>
 					<div class="control-group">
@@ -153,6 +154,26 @@
 				<div class="span2">
 					<img data-bind="attr:{src:smiley}">
 				</div>
+			</div>
+		</div>
+
+		<div id="choiceModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="resultsModalLabel" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					×
+				</button>
+				<h3 id="myModalLabel">Nouveau quiz</h3>
+			</div>
+			<div class="modal-body">
+				<p>
+					Souhaitez-vous retenter un quiz ?
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">
+					Fermer
+				</button>
+				<a href='#choice' class="btn btn-primary" id="choice"> Nouveau quiz </a>
 			</div>
 		</div>
 
@@ -248,8 +269,7 @@
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
-			var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
-			( function(d, t) {
+			var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']]; ( function(d, t) {
 					var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
 					g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
 					s.parentNode.insertBefore(g, s)

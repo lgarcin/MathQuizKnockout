@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>MathQuiz</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<style>
+			body {
+				padding-top: 60px;
+				padding-bottom: 40px;
+			}
+		</style>
+		<link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" href="../css/admin.css">
+
+		<script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+		<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+		<![endif]-->
+
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="#" style="color:red">MathQuiz © Laurent Garcin 2013</a>
+					<div class="pull-right">
+						<a class="btn btn-primary" href='#saveModal' role="button" data-toggle="modal">Sauvegarder</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<form class="form-horizontal">
+				<fieldset>
+					<legend>
+						Niveau
+					</legend>
+					<div class="control-group">
+						<label class="control-label">Niveau</label>
+						<div class="controls" data-bind="foreach: niveaux">
+							<label class="radio inline">
+								<input type="radio" name="niveau" data-bind="value: $data, checked: $root.niveau"/>
+								<span data-bind="text: $data"></span> </label>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>
+						Thèmes
+					</legend>
+					<div class="control-group">
+						<label class="control-label">Thèmes</label>
+						<div class="controls controls-row" data-bind="foreach: themes">
+							<label class="span3 checkbox">
+								<input type="checkbox" data-bind="value: $data, checked: $root.selectedThemes">
+								<span data-bind="text: $data"></span></label>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>
+						Question
+					</legend>
+					<div class="control-group">
+						<label class="control-label">Question</label>
+						<div class="controls controls-row">
+							<textarea class="span4" rows="3" data-bind="value: enonce, valueUpdate: 'keyup', event: {keyup: mathjax}"></textarea>
+							<div class="span4" data-bind="html: htmlentities(enonce())"></div>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>
+						Réponses
+					</legend>
+					<div data-bind="foreach: reponses">
+						<div class="control-group">
+							<label class="control-label" data-bind="text: 'Réponse '+($index()+1)"></label>
+							<div class="controls controls-row">
+								<div class="span2">
+									<label class="radio inline">Vrai
+										<input type="radio" value="true" data-bind="attr:{name: 'reponse'+$index()}, checked: value"/>
+									</label>
+									<label class="radio inline">Faux
+										<input type="radio" value="false" data-bind="attr:{name: 'reponse'+$index()}, checked: value"/>
+									</label>
+								</div>
+								<textarea class="span4" rows="3" data-bind="value: reponse, valueUpdate: 'keyup', event: {keyup: $root.mathjax}"></textarea>
+								<div class="span4" data-bind="html: $root.htmlentities(reponse())"></div>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+
+		<div id="saveModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="resultsModalLabel" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					×
+				</button>
+				<h3 id="myModalLabel">Sauvegarde</h3>
+			</div>
+			<div class="modal-body">
+				<p>
+					Souhaitez-vous sauvegarder votre question ?
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">
+					Fermer
+				</button>
+				<a href='#' class="btn btn-primary" id="save" data-bind="click: save"> Sauvegarder </a>
+			</div>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="../js/vendor/jquery-1.8.3.min.js"><\/script>')
+		</script>
+		<script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.0.js"></script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+		<script src="../js/vendor/bootstrap.min.js"></script>
+		<script src="../js/admin.js"></script>
+	</body>
+</html>

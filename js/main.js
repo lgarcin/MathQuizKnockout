@@ -47,6 +47,10 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready", function() {
 	});
 });
 
+$('#choice').click(function() {
+	$('#choiceModal').modal('hide');
+});
+
 $('#results').click(function() {
 	$('#resultsModal').modal('hide');
 });
@@ -86,6 +90,7 @@ function QuizModel() {
 	self.number = ko.observable(20);
 	self.niveau = ko.observable("Tout le programme");
 	self.themes = ko.observableArray();
+	self.selectedThemes = ko.observableArray();
 	self.view = ko.observable('choice');
 	self.range = ko.observableArray();
 
@@ -93,10 +98,7 @@ function QuizModel() {
 
 	$.getJSON('themes.php', function(themes) {
 		$.each(themes, function(key, val) {
-			self.themes.push({
-				theme : ko.observable(val[0]),
-				check : ko.observable(false)
-			});
+			self.themes.push(ko.observable(val[0]));
 		});
 	});
 
